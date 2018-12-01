@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="179340600000fs"></ZoomStartTime>
+      <ZoomEndTime time="179439400001fs"></ZoomEndTime>
+      <Cursor1Time time="179463334000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="216"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="63" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_flag" type="logic">
+      <obj_property name="ElementShortName">maxpooling_flag</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_size" type="array">
+      <obj_property name="ElementShortName">image_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_size[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_data" type="array">
+      <obj_property name="ElementShortName">image_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">image_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_valid" type="logic">
+      <obj_property name="ElementShortName">image_valid</obj_property>
+      <obj_property name="ObjectShortName">image_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_q_valid" type="logic">
+      <obj_property name="ElementShortName">image_q_valid</obj_property>
+      <obj_property name="ObjectShortName">image_q_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish" type="logic">
+      <obj_property name="ElementShortName">maxpooling_finish</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /wr_1" type="logic">
+      <obj_property name="ElementShortName">wr_1</obj_property>
+      <obj_property name="ObjectShortName">wr_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /wr_2" type="logic">
+      <obj_property name="ElementShortName">wr_2</obj_property>
+      <obj_property name="ObjectShortName">wr_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_data_fifo1_2combine" type="array">
+      <obj_property name="ElementShortName">image_data_fifo1_2combine[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_data_fifo1_2combine[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_data_fifo2_2combine" type="array">
+      <obj_property name="ElementShortName">image_data_fifo2_2combine[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_data_fifo2_2combine[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /fifo_empty1" type="logic">
+      <obj_property name="ElementShortName">fifo_empty1</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /fifo_empty2" type="logic">
+      <obj_property name="ElementShortName">fifo_empty2</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_en1" type="logic">
+      <obj_property name="ElementShortName">rd_en1</obj_property>
+      <obj_property name="ObjectShortName">rd_en1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_en2" type="logic">
+      <obj_property name="ElementShortName">rd_en2</obj_property>
+      <obj_property name="ObjectShortName">rd_en2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_out1" type="array">
+      <obj_property name="ElementShortName">rd_out1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_out1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_out2" type="array">
+      <obj_property name="ElementShortName">rd_out2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_out2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /wr_fifo_state" type="logic">
+      <obj_property name="ElementShortName">wr_fifo_state</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /wr_strb" type="logic">
+      <obj_property name="ElementShortName">wr_strb</obj_property>
+      <obj_property name="ObjectShortName">wr_strb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_wr_cnt" type="array">
+      <obj_property name="ElementShortName">image_wr_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /fifo1_wlast" type="logic">
+      <obj_property name="ElementShortName">fifo1_wlast</obj_property>
+      <obj_property name="ObjectShortName">fifo1_wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /fifo2_wlast" type="logic">
+      <obj_property name="ElementShortName">fifo2_wlast</obj_property>
+      <obj_property name="ObjectShortName">fifo2_wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /max_rd_en" type="logic">
+      <obj_property name="ElementShortName">max_rd_en</obj_property>
+      <obj_property name="ObjectShortName">max_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_out1_r" type="array">
+      <obj_property name="ElementShortName">rd_out1_r[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_out1_r[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_out2_r" type="array">
+      <obj_property name="ElementShortName">rd_out2_r[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_out2_r[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_rd_en" type="logic">
+      <obj_property name="ElementShortName">compare_rd_en</obj_property>
+      <obj_property name="ObjectShortName">compare_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_valid1" type="logic">
+      <obj_property name="ElementShortName">compare_valid1</obj_property>
+      <obj_property name="ObjectShortName">compare_valid1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_valid2" type="logic">
+      <obj_property name="ElementShortName">compare_valid2</obj_property>
+      <obj_property name="ObjectShortName">compare_valid2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_result1" type="array">
+      <obj_property name="ElementShortName">compare_result1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_result1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_result2" type="array">
+      <obj_property name="ElementShortName">compare_result2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_result2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_result3" type="array">
+      <obj_property name="ElementShortName">compare_result3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_result3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_data1" type="array">
+      <obj_property name="ElementShortName">compare_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_data2" type="array">
+      <obj_property name="ElementShortName">compare_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_data1_r" type="array">
+      <obj_property name="ElementShortName">compare_data1_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_data1_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_data2_r" type="array">
+      <obj_property name="ElementShortName">compare_data2_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_data2_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_valid" type="logic">
+      <obj_property name="ElementShortName">compare_valid</obj_property>
+      <obj_property name="ObjectShortName">compare_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_final_data" type="array">
+      <obj_property name="ElementShortName">compare_final_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_final_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /combine_state" type="logic">
+      <obj_property name="ElementShortName">combine_state</obj_property>
+      <obj_property name="ObjectShortName">combine_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /combine_compare_data" type="array">
+      <obj_property name="ElementShortName">combine_compare_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">combine_compare_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_data_cnt" type="array">
+      <obj_property name="ElementShortName">compare_data_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_data_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_size_in_couple" type="array">
+      <obj_property name="ElementShortName">image_size_in_couple[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_size_in_couple[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_fifo_state" type="logic">
+      <obj_property name="ElementShortName">rd_fifo_state</obj_property>
+      <obj_property name="ObjectShortName">rd_fifo_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_strb" type="logic">
+      <obj_property name="ElementShortName">rd_strb</obj_property>
+      <obj_property name="ObjectShortName">rd_strb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /no_max_rd_en1" type="logic">
+      <obj_property name="ElementShortName">no_max_rd_en1</obj_property>
+      <obj_property name="ObjectShortName">no_max_rd_en1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /no_max_rd_en2" type="logic">
+      <obj_property name="ElementShortName">no_max_rd_en2</obj_property>
+      <obj_property name="ObjectShortName">no_max_rd_en2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /image_rd_cnt" type="array">
+      <obj_property name="ElementShortName">image_rd_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_rd_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_strb_r" type="logic">
+      <obj_property name="ElementShortName">rd_strb_r</obj_property>
+      <obj_property name="ObjectShortName">rd_strb_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /compare_valid_r" type="logic">
+      <obj_property name="ElementShortName">compare_valid_r</obj_property>
+      <obj_property name="ObjectShortName">compare_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /wr_fifo1" type="logic">
+      <obj_property name="ElementShortName">wr_fifo1</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /wr_fifo2" type="logic">
+      <obj_property name="ElementShortName">wr_fifo2</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_fifo1" type="logic">
+      <obj_property name="ElementShortName">rd_fifo1</obj_property>
+      <obj_property name="ObjectShortName">rd_fifo1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /rd_fifo2" type="logic">
+      <obj_property name="ElementShortName">rd_fifo2</obj_property>
+      <obj_property name="ObjectShortName">rd_fifo2</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1154" type="group">
+      <obj_property name="label">MAXPOOLING_FINISH_GEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/maxpooling_flag" type="logic">
+         <obj_property name="ElementShortName">maxpooling_flag</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/image_size" type="array">
+         <obj_property name="ElementShortName">image_size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">image_size[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/image_size_in_couple" type="array">
+         <obj_property name="ElementShortName">image_size_in_couple[7:0]</obj_property>
+         <obj_property name="ObjectShortName">image_size_in_couple[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/max_rd_en" type="logic">
+         <obj_property name="ElementShortName">max_rd_en</obj_property>
+         <obj_property name="ObjectShortName">max_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/no_max_rd_en1" type="logic">
+         <obj_property name="ElementShortName">no_max_rd_en1</obj_property>
+         <obj_property name="ObjectShortName">no_max_rd_en1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/no_max_rd_en2" type="logic">
+         <obj_property name="ElementShortName">no_max_rd_en2</obj_property>
+         <obj_property name="ObjectShortName">no_max_rd_en2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/image_rd_cnt" type="array">
+         <obj_property name="ElementShortName">image_rd_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">image_rd_cnt[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/maxpooling_finish" type="logic">
+         <obj_property name="ElementShortName">maxpooling_finish</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/rd_allimage_cnt" type="array">
+         <obj_property name="ElementShortName">rd_allimage_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_allimage_cnt[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/allimage_rd_finish1" type="logic">
+         <obj_property name="ElementShortName">allimage_rd_finish1</obj_property>
+         <obj_property name="ObjectShortName">allimage_rd_finish1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/allimage_rd_finish2" type="logic">
+         <obj_property name="ElementShortName">allimage_rd_finish2</obj_property>
+         <obj_property name="ObjectShortName">allimage_rd_finish2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/maxpooling_finish_temp" type="logic">
+         <obj_property name="ElementShortName">maxpooling_finish_temp</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_finish_temp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/maxpooling_finish_temp1" type="logic">
+         <obj_property name="ElementShortName">maxpooling_finish_temp1</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_finish_temp1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/maxpooling_finish_temp2" type="logic">
+         <obj_property name="ElementShortName">maxpooling_finish_temp2</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_finish_temp2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /maxpooling_finish_gen_m1/maxpooling_finish_temp3" type="logic">
+         <obj_property name="ElementShortName">maxpooling_finish_temp3</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_finish_temp3</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1164" type="group">
+      <obj_property name="label">USER_MAXPOOLING_FIFO_M1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/din" type="array">
+         <obj_property name="ElementShortName">din[63:0]</obj_property>
+         <obj_property name="ObjectShortName">din[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/dout" type="array">
+         <obj_property name="ElementShortName">dout[63:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/ram_reg" type="array">
+         <obj_property name="ElementShortName">ram_reg[7:0][63:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_reg[7:0][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/wr_cnt" type="array">
+         <obj_property name="ElementShortName">wr_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_cnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[0].max_pooling_m /user_maxpooling_fifo_m1/rd_cnt" type="array">
+         <obj_property name="ElementShortName">rd_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_cnt[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[1].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[2].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[3].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[4].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[5].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[6].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/\max_pooling_loop[7].max_pooling_m /image_q" type="array">
+      <obj_property name="ElementShortName">image_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_q[63:0]</obj_property>
+   </wvobject>
+</wave_config>

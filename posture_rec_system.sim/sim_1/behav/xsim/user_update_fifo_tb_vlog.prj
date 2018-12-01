@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../posture_rec_system.srcs/sources_1/ip/PLL" --include "../../../../posture_rec_system.srcs/sources_1/new" --include "D:/Xilinx/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../posture_rec_system.srcs/sources_1/new/user_update_fifo.v" \
+
+sv xil_defaultlib  --include "../../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../posture_rec_system.srcs/sources_1/ip/PLL" --include "../../../../posture_rec_system.srcs/sources_1/new" --include "D:/Xilinx/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../posture_rec_system.srcs/sim_1/new/user_update_fifo_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

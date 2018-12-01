@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="177509506334fs"></ZoomStartTime>
+      <ZoomEndTime time="177725906335fs"></ZoomEndTime>
+      <Cursor1Time time="177598906000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="820"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/kernel_wr_req" type="logic">
+      <obj_property name="ElementShortName">kernel_wr_req</obj_property>
+      <obj_property name="ObjectShortName">kernel_wr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/kernel_wr_data" type="array">
+      <obj_property name="ElementShortName">kernel_wr_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_wr_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/kernel_rd_need" type="logic">
+      <obj_property name="ElementShortName">kernel_rd_need</obj_property>
+      <obj_property name="ObjectShortName">kernel_rd_need</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/kernel_wr_size" type="array">
+      <obj_property name="ElementShortName">kernel_wr_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_wr_size[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/kernel_wr_num" type="array">
+      <obj_property name="ElementShortName">kernel_wr_num[4:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_wr_num[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/filter_wr_num" type="array">
+      <obj_property name="ElementShortName">filter_wr_num[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_wr_num[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/load_kernel_clk" type="logic">
+      <obj_property name="ElementShortName">load_kernel_clk</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/load_kernel_rd" type="logic">
+      <obj_property name="ElementShortName">load_kernel_rd</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/load_kernel_rd_q" type="array">
+      <obj_property name="ElementShortName">load_kernel_rd_q[511:0]</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_rd_q[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/load_kernel_empty" type="logic">
+      <obj_property name="ElementShortName">load_kernel_empty</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/fifo_wr" type="array">
+      <obj_property name="ElementShortName">fifo_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/prog_full" type="array">
+      <obj_property name="ElementShortName">prog_full[7:0]</obj_property>
+      <obj_property name="ObjectShortName">prog_full[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/prog_empty" type="array">
+      <obj_property name="ElementShortName">prog_empty[7:0]</obj_property>
+      <obj_property name="ObjectShortName">prog_empty[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/fifo_empty" type="array">
+      <obj_property name="ElementShortName">fifo_empty[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/fifo_wr_data" type="array">
+      <obj_property name="ElementShortName">fifo_wr_data[7:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_data[7:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/kernel_wr_size_8bytes" type="array">
+      <obj_property name="ElementShortName">kernel_wr_size_8bytes[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_wr_size_8bytes[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_valid_location" type="array">
+      <obj_property name="ElementShortName">wfifo_valid_location[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wfifo_valid_location[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_invalid_location" type="array">
+      <obj_property name="ElementShortName">wfifo_invalid_location[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wfifo_invalid_location[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/cnti_threshold" type="array">
+      <obj_property name="ElementShortName">cnti_threshold[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnti_threshold[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/cntj_threshold" type="array">
+      <obj_property name="ElementShortName">cntj_threshold[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cntj_threshold[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/cntk_threshold" type="array">
+      <obj_property name="ElementShortName">cntk_threshold[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cntk_threshold[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/location1" type="array">
+      <obj_property name="ElementShortName">location1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">location1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/location2" type="array">
+      <obj_property name="ElementShortName">location2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">location2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/cnt_ij" type="array">
+      <obj_property name="ElementShortName">cnt_ij[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_ij[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/cnt_k" type="array">
+      <obj_property name="ElementShortName">cnt_k[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_k[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/location_cnt" type="array">
+      <obj_property name="ElementShortName">location_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">location_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/cnt_end" type="logic">
+      <obj_property name="ElementShortName">cnt_end</obj_property>
+      <obj_property name="ObjectShortName">cnt_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/cntij_threshold" type="array">
+      <obj_property name="ElementShortName">cntij_threshold[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cntij_threshold[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/kernel_buffer_control_m1/wfifo_location_cal_m1/k" type="array">
+      <obj_property name="ElementShortName">k[7:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">k[7:0][3:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="375082633667fs"></ZoomStartTime>
+      <ZoomEndTime time="375286833668fs"></ZoomEndTime>
+      <Cursor1Time time="375116667000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="157"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_head_rd" type="logic">
+      <obj_property name="ElementShortName">load_head_rd</obj_property>
+      <obj_property name="ObjectShortName">load_head_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_head_rd_q" type="array">
+      <obj_property name="ElementShortName">load_head_rd_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">load_head_rd_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_head_empty" type="logic">
+      <obj_property name="ElementShortName">load_head_empty</obj_property>
+      <obj_property name="ObjectShortName">load_head_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_kernel_rd" type="logic">
+      <obj_property name="ElementShortName">load_kernel_rd</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_kernel_rd_q" type="array">
+      <obj_property name="ElementShortName">load_kernel_rd_q[511:0]</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_rd_q[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_kernel_empty" type="logic">
+      <obj_property name="ElementShortName">load_kernel_empty</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/image_rd_update" type="logic">
+      <obj_property name="ElementShortName">image_rd_update</obj_property>
+      <obj_property name="ObjectShortName">image_rd_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/image_rd_ready" type="logic">
+      <obj_property name="ElementShortName">image_rd_ready</obj_property>
+      <obj_property name="ObjectShortName">image_rd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd" type="logic">
+      <obj_property name="ElementShortName">load_image_rd</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_addr" type="array">
+      <obj_property name="ElementShortName">load_image_rd_addr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_addr[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q" type="array">
+      <obj_property name="ElementShortName">load_image_rd_q[511:0]</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_q[511:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus930" type="vbus">
+      <obj_property name="label">load_image_rd_q[63:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[63]" type="logic">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[62]" type="logic">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[61]" type="logic">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[60]" type="logic">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[59]" type="logic">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[58]" type="logic">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[57]" type="logic">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[56]" type="logic">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[55]" type="logic">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[54]" type="logic">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[53]" type="logic">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[52]" type="logic">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[51]" type="logic">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[50]" type="logic">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[49]" type="logic">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[48]" type="logic">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[47]" type="logic">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[46]" type="logic">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[45]" type="logic">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[44]" type="logic">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[43]" type="logic">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[42]" type="logic">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[41]" type="logic">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[40]" type="logic">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[39]" type="logic">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[38]" type="logic">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[37]" type="logic">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[36]" type="logic">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[35]" type="logic">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[34]" type="logic">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[33]" type="logic">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[32]" type="logic">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_valid" type="array">
+      <obj_property name="ElementShortName">load_image_valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">load_image_valid[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group397" type="group">
+      <obj_property name="label">head information</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/filter_num" type="array">
+         <obj_property name="ElementShortName">filter_num[7:0]</obj_property>
+         <obj_property name="ObjectShortName">filter_num[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/image_size" type="array">
+         <obj_property name="ElementShortName">image_size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">image_size[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/infor_update" type="logic">
+         <obj_property name="ElementShortName">infor_update</obj_property>
+         <obj_property name="ObjectShortName">infor_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/image_return_axi" type="logic">
+         <obj_property name="ElementShortName">image_return_axi</obj_property>
+         <obj_property name="ObjectShortName">image_return_axi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/image_sum_en" type="logic">
+         <obj_property name="ElementShortName">image_sum_en</obj_property>
+         <obj_property name="ObjectShortName">image_sum_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/maxpooling_en" type="logic">
+         <obj_property name="ElementShortName">maxpooling_en</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/maxpooling_finish" type="logic">
+         <obj_property name="ElementShortName">maxpooling_finish</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_finish</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group395" type="group">
+      <obj_property name="label">read image_write_buffer_control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_row_addr" type="array">
+         <obj_property name="ElementShortName">load_image_rd_row_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">load_image_rd_row_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_col_addr" type="array">
+         <obj_property name="ElementShortName">load_image_rd_col_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">load_image_rd_col_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_valid_or" type="logic">
+         <obj_property name="ElementShortName">load_image_valid_or</obj_property>
+         <obj_property name="ObjectShortName">load_image_valid_or</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_valid_or_r" type="logic">
+         <obj_property name="ElementShortName">load_image_valid_or_r</obj_property>
+         <obj_property name="ObjectShortName">load_image_valid_or_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_valid_or_r1" type="logic">
+         <obj_property name="ElementShortName">load_image_valid_or_r1</obj_property>
+         <obj_property name="ObjectShortName">load_image_valid_or_r1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_valid_or_r2" type="logic">
+         <obj_property name="ElementShortName">load_image_valid_or_r2</obj_property>
+         <obj_property name="ObjectShortName">load_image_valid_or_r2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_valid_or_r3" type="logic">
+         <obj_property name="ElementShortName">load_image_valid_or_r3</obj_property>
+         <obj_property name="ObjectShortName">load_image_valid_or_r3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_valid_or_r4" type="logic">
+         <obj_property name="ElementShortName">load_image_valid_or_r4</obj_property>
+         <obj_property name="ObjectShortName">load_image_valid_or_r4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd" type="logic">
+         <obj_property name="ElementShortName">deal_PostImage_rd</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_rd_q[511:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_rd_q[511:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="vbus2692" type="vbus">
+         <obj_property name="label">deal_PostImage_rd_q[63:0]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[63]" type="logic">
+            <obj_property name="ElementShortName">[63]</obj_property>
+            <obj_property name="ObjectShortName">[63]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[62]" type="logic">
+            <obj_property name="ElementShortName">[62]</obj_property>
+            <obj_property name="ObjectShortName">[62]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[61]" type="logic">
+            <obj_property name="ElementShortName">[61]</obj_property>
+            <obj_property name="ObjectShortName">[61]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[60]" type="logic">
+            <obj_property name="ElementShortName">[60]</obj_property>
+            <obj_property name="ObjectShortName">[60]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[59]" type="logic">
+            <obj_property name="ElementShortName">[59]</obj_property>
+            <obj_property name="ObjectShortName">[59]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[58]" type="logic">
+            <obj_property name="ElementShortName">[58]</obj_property>
+            <obj_property name="ObjectShortName">[58]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[57]" type="logic">
+            <obj_property name="ElementShortName">[57]</obj_property>
+            <obj_property name="ObjectShortName">[57]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[56]" type="logic">
+            <obj_property name="ElementShortName">[56]</obj_property>
+            <obj_property name="ObjectShortName">[56]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[55]" type="logic">
+            <obj_property name="ElementShortName">[55]</obj_property>
+            <obj_property name="ObjectShortName">[55]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[54]" type="logic">
+            <obj_property name="ElementShortName">[54]</obj_property>
+            <obj_property name="ObjectShortName">[54]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[53]" type="logic">
+            <obj_property name="ElementShortName">[53]</obj_property>
+            <obj_property name="ObjectShortName">[53]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[52]" type="logic">
+            <obj_property name="ElementShortName">[52]</obj_property>
+            <obj_property name="ObjectShortName">[52]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[51]" type="logic">
+            <obj_property name="ElementShortName">[51]</obj_property>
+            <obj_property name="ObjectShortName">[51]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[50]" type="logic">
+            <obj_property name="ElementShortName">[50]</obj_property>
+            <obj_property name="ObjectShortName">[50]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_q[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_valid_channel" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_rd_valid_channel[7:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_rd_valid_channel[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_row_rd_addr" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_row_rd_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_row_rd_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_col_rd_addr" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_col_rd_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_col_rd_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_rd_addr" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_rd_addr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_rd_addr[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group396" type="group">
+      <obj_property name="label">write image_write_buffer_control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_wr_last" type="logic">
+         <obj_property name="ElementShortName">deal_PostImage_wr_last</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_wr_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_wr" type="logic">
+         <obj_property name="ElementShortName">deal_PostImage_wr</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_col_wr_addr" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_col_wr_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_col_wr_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_row_wr_addr" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_row_wr_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_row_wr_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_wr_addr" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_wr_addr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_wr_addr[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/deal_PostImage_wr_data" type="array">
+         <obj_property name="ElementShortName">deal_PostImage_wr_data[511:0]</obj_property>
+         <obj_property name="ObjectShortName">deal_PostImage_wr_data[511:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="vbus1061" type="vbus">
+         <obj_property name="label">load_image_rd_q_r4[63:0]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[63]" type="logic">
+            <obj_property name="ElementShortName">[63]</obj_property>
+            <obj_property name="ObjectShortName">[63]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[62]" type="logic">
+            <obj_property name="ElementShortName">[62]</obj_property>
+            <obj_property name="ObjectShortName">[62]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[61]" type="logic">
+            <obj_property name="ElementShortName">[61]</obj_property>
+            <obj_property name="ObjectShortName">[61]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[60]" type="logic">
+            <obj_property name="ElementShortName">[60]</obj_property>
+            <obj_property name="ObjectShortName">[60]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[59]" type="logic">
+            <obj_property name="ElementShortName">[59]</obj_property>
+            <obj_property name="ObjectShortName">[59]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[58]" type="logic">
+            <obj_property name="ElementShortName">[58]</obj_property>
+            <obj_property name="ObjectShortName">[58]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[57]" type="logic">
+            <obj_property name="ElementShortName">[57]</obj_property>
+            <obj_property name="ObjectShortName">[57]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[56]" type="logic">
+            <obj_property name="ElementShortName">[56]</obj_property>
+            <obj_property name="ObjectShortName">[56]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[55]" type="logic">
+            <obj_property name="ElementShortName">[55]</obj_property>
+            <obj_property name="ObjectShortName">[55]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[54]" type="logic">
+            <obj_property name="ElementShortName">[54]</obj_property>
+            <obj_property name="ObjectShortName">[54]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[53]" type="logic">
+            <obj_property name="ElementShortName">[53]</obj_property>
+            <obj_property name="ObjectShortName">[53]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[52]" type="logic">
+            <obj_property name="ElementShortName">[52]</obj_property>
+            <obj_property name="ObjectShortName">[52]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[51]" type="logic">
+            <obj_property name="ElementShortName">[51]</obj_property>
+            <obj_property name="ObjectShortName">[51]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[50]" type="logic">
+            <obj_property name="ElementShortName">[50]</obj_property>
+            <obj_property name="ObjectShortName">[50]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/top_DUT/buffer_control_tb_m1/load_image_rd_q_r4[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

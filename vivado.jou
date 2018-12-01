@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu May 17 18:02:18 2018
+# Process ID: 3880
+# Current directory: F:/posture_rec/posture_rec_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5468 F:\posture_rec\posture_rec_system\posture_rec_system.xpr
+# Log file: F:/posture_rec/posture_rec_system/vivado.log
+# Journal file: F:/posture_rec/posture_rec_system\vivado.jou
+#-----------------------------------------------------------
+start_gui

@@ -1,0 +1,785 @@
+10:40:30 INFO  : Registering command handlers for SDK TCF services
+10:40:31 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+10:40:33 INFO  : XSCT server has started successfully.
+10:40:33 INFO  : Successfully done setting XSCT server connection channel  
+10:40:33 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+10:40:33 INFO  : Successfully done setting SDK workspace  
+10:46:57 INFO  : Refreshed build settings on project system
+10:51:16 INFO  : Refreshed build settings on project system
+11:15:17 INFO  : Registering command handlers for SDK TCF services
+11:15:17 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+11:15:19 INFO  : XSCT server has started successfully.
+11:15:20 INFO  : Successfully done setting XSCT server connection channel  
+11:15:20 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+11:15:20 INFO  : Successfully done setting SDK workspace  
+11:17:22 INFO  : Refreshed build settings on project system
+12:04:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:11 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+12:04:11 INFO  : 'jtag frequency' command is executed.
+12:04:11 INFO  : Sourcing of 'D:/Xilinx/SDK/2017.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+12:04:11 INFO  : Context for 'APU' is selected.
+12:04:12 INFO  : System reset is completed.
+12:04:15 INFO  : 'after 3000' command is executed.
+12:04:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0} -index 0' command is executed.
+12:04:18 INFO  : FPGA configured successfully with bitstream "F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/top.bit"
+12:04:19 INFO  : Context for 'APU' is selected.
+12:04:19 INFO  : Hardware design information is loaded from 'F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/system.hdf'.
+12:04:19 INFO  : 'configparams force-mem-access 1' command is executed.
+12:04:20 INFO  : Context for 'APU' is selected.
+12:04:20 INFO  : Sourcing of 'F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/psu_init.tcl' is done.
+12:04:21 INFO  : 'psu_init' command is executed.
+12:04:22 INFO  : 'after 1000' command is executed.
+12:04:22 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+12:04:23 INFO  : 'after 1000' command is executed.
+12:04:23 INFO  : 'psu_ps_pl_reset_config' command is executed.
+12:04:23 INFO  : 'catch {psu_protection}' command is executed.
+12:04:23 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:04:23 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:05:09 INFO  : The application 'F:/postureRec/posture_rec_system/posture_rec_system.sdk/system/Debug/system.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:05:09 INFO  : 'configparams force-mem-access 0' command is executed.
+12:05:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/SDK/2017.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0} -index 0
+fpga -file F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/top.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+loadhw -hw F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+source F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+rst -processor
+dow F:/postureRec/posture_rec_system/posture_rec_system.sdk/system/Debug/system.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:05:09 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:05:09 INFO  : 'con' command is executed.
+12:05:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+con
+----------------End of Script----------------
+
+12:05:09 INFO  : Launch script is exported to file 'F:\postureRec\posture_rec_system\posture_rec_system.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_system.elf_on_local.tcl'
+12:06:37 INFO  : Disconnected from the channel tcfchan#1.
+12:06:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:44 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+12:06:44 INFO  : 'jtag frequency' command is executed.
+12:06:44 INFO  : Sourcing of 'D:/Xilinx/SDK/2017.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+12:06:44 INFO  : Context for 'APU' is selected.
+12:06:45 INFO  : System reset is completed.
+12:06:48 INFO  : 'after 3000' command is executed.
+12:06:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0} -index 0' command is executed.
+12:06:52 INFO  : FPGA configured successfully with bitstream "F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/top.bit"
+12:06:52 INFO  : Context for 'APU' is selected.
+12:06:52 INFO  : Hardware design information is loaded from 'F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/system.hdf'.
+12:06:52 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:52 INFO  : Context for 'APU' is selected.
+12:06:52 INFO  : Sourcing of 'F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/psu_init.tcl' is done.
+12:06:53 INFO  : 'psu_init' command is executed.
+12:06:54 INFO  : 'after 1000' command is executed.
+12:06:54 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+12:06:55 INFO  : 'after 1000' command is executed.
+12:06:55 INFO  : 'psu_ps_pl_reset_config' command is executed.
+12:06:55 INFO  : 'catch {psu_protection}' command is executed.
+12:06:55 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:06:55 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:07:40 INFO  : The application 'F:/postureRec/posture_rec_system/posture_rec_system.sdk/system/Debug/system.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:07:40 INFO  : 'configparams force-mem-access 0' command is executed.
+12:07:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/SDK/2017.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0} -index 0
+fpga -file F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/top.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+loadhw -hw F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+source F:/postureRec/posture_rec_system/posture_rec_system.sdk/top_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+rst -processor
+dow F:/postureRec/posture_rec_system/posture_rec_system.sdk/system/Debug/system.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:07:40 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:07:40 INFO  : 'con' command is executed.
+12:07:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870"} -index 1
+con
+----------------End of Script----------------
+
+12:07:40 INFO  : Launch script is exported to file 'F:\postureRec\posture_rec_system\posture_rec_system.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_system.elf_on_local.tcl'
+12:22:34 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+12:22:34 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+12:22:35 INFO  : Bootgen command execution is done.
+12:35:29 INFO  : Disconnected from the channel tcfchan#2.
+14:20:06 INFO  : Registering command handlers for SDK TCF services
+14:20:07 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+14:20:10 INFO  : XSCT server has started successfully.
+14:20:15 INFO  : Successfully done setting XSCT server connection channel  
+14:20:15 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+14:20:27 INFO  : Successfully done setting SDK workspace  
+14:20:31 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+17:01:20 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+17:01:22 INFO  : XSCT server has started successfully.
+17:01:22 INFO  : Successfully done setting XSCT server connection channel  
+17:01:29 INFO  : Successfully done setting SDK workspace  
+17:01:34 INFO  : Registering command handlers for SDK TCF services
+17:01:35 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+17:01:35 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+17:01:35 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1524817018967,  Project:1524739292381
+17:01:35 INFO  : The hardware specification for project 'top_hw_platform_0' is different from F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+17:01:35 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+17:01:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:01:57 INFO  : 
+17:02:00 INFO  : 
+17:02:03 INFO  : 
+17:02:04 INFO  : Updating hardware inferred compiler options for fsbl.
+17:02:06 INFO  : Updating hardware inferred compiler options for pmu.
+17:02:06 INFO  : Updating hardware inferred compiler options for system.
+17:02:07 INFO  : Clearing existing target manager status.
+17:02:07 WARN  : Given IPC port value is invalid. Using default port 2350
+17:02:07 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+17:02:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:02:09 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+17:04:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:27:33 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:27:34 INFO  : XSCT server has started successfully.
+09:27:34 INFO  : Successfully done setting XSCT server connection channel  
+09:27:34 INFO  : Successfully done setting SDK workspace  
+09:27:43 INFO  : Registering command handlers for SDK TCF services
+09:27:43 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:27:44 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+09:27:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1524824939130,  Project:1524817018967
+09:27:44 INFO  : The hardware specification for project 'top_hw_platform_0' is different from F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:27:44 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+09:27:56 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:27:58 INFO  : 
+09:28:01 INFO  : 
+09:28:03 INFO  : 
+09:28:04 INFO  : Updating hardware inferred compiler options for fsbl.
+09:28:05 INFO  : Updating hardware inferred compiler options for pmu.
+09:28:06 INFO  : Updating hardware inferred compiler options for system.
+09:28:06 INFO  : Clearing existing target manager status.
+09:28:06 WARN  : Given IPC port value is invalid. Using default port 2350
+09:28:06 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+09:28:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:52 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+09:31:53 INFO  : Bootgen command execution is done.
+09:33:11 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:34:33 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:34:34 INFO  : XSCT server has started successfully.
+09:34:34 INFO  : Successfully done setting XSCT server connection channel  
+09:34:34 INFO  : Successfully done setting SDK workspace  
+09:34:43 INFO  : Registering command handlers for SDK TCF services
+09:34:43 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:34:43 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+09:35:32 INFO  : Registering command handlers for SDK TCF services
+09:35:32 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:35:34 INFO  : XSCT server has started successfully.
+09:35:35 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:35:35 INFO  : Successfully done setting XSCT server connection channel  
+09:35:35 INFO  : Successfully done setting SDK workspace  
+13:01:12 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+13:01:12 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+13:01:13 INFO  : Bootgen command execution is done.
+10:54:37 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+10:54:40 INFO  : XSCT server has started successfully.
+10:54:44 INFO  : Successfully done setting XSCT server connection channel  
+10:54:44 INFO  : Successfully done setting SDK workspace  
+10:54:57 INFO  : Registering command handlers for SDK TCF services
+10:54:57 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+10:54:58 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+10:54:58 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1524911375281,  Project:1524824939130
+10:54:58 INFO  : The hardware specification for project 'top_hw_platform_0' is different from F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+10:54:59 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+10:55:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:55:21 INFO  : 
+10:55:24 INFO  : 
+10:55:26 INFO  : 
+10:55:27 INFO  : Updating hardware inferred compiler options for fsbl.
+10:55:28 INFO  : Updating hardware inferred compiler options for pmu.
+10:55:29 INFO  : Updating hardware inferred compiler options for system.
+10:55:29 INFO  : Clearing existing target manager status.
+10:55:29 WARN  : Given IPC port value is invalid. Using default port 2350
+10:55:29 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+10:55:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:15:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:15:56 INFO  : Registering command handlers for SDK TCF services
+11:15:56 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+11:15:57 INFO  : XSCT server has started successfully.
+11:15:57 INFO  : Successfully done setting XSCT server connection channel  
+11:15:57 INFO  : Successfully done setting SDK workspace  
+11:15:57 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+11:30:25 INFO  : Refreshed build settings on project system
+11:35:24 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+11:35:24 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+11:35:26 INFO  : Bootgen command execution is done.
+11:37:22 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+11:37:24 INFO  : XSCT server has started successfully.
+11:37:24 INFO  : Successfully done setting XSCT server connection channel  
+11:37:24 INFO  : Successfully done setting SDK workspace  
+11:37:34 INFO  : Registering command handlers for SDK TCF services
+11:37:34 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+11:37:35 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+11:41:02 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+11:41:02 INFO  : Overwriting existing bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+11:41:03 INFO  : Bootgen command execution is done.
+13:42:52 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+13:42:56 INFO  : XSCT server has started successfully.
+13:43:00 INFO  : Successfully done setting XSCT server connection channel  
+13:43:00 INFO  : Successfully done setting SDK workspace  
+13:43:15 INFO  : Registering command handlers for SDK TCF services
+13:43:15 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+13:43:16 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+13:43:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1525757052692,  Project:1524911375281
+13:43:16 INFO  : The hardware specification for project 'top_hw_platform_0' is different from F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+13:43:17 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+13:43:29 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:43:41 INFO  : 
+13:43:44 INFO  : 
+13:43:47 INFO  : 
+13:43:48 INFO  : Updating hardware inferred compiler options for fsbl.
+13:43:49 INFO  : Updating hardware inferred compiler options for pmu.
+13:43:50 INFO  : Updating hardware inferred compiler options for system.
+13:43:50 INFO  : Clearing existing target manager status.
+13:43:50 WARN  : Given IPC port value is invalid. Using default port 2350
+13:43:50 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+13:43:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:47:36 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:47:46 INFO  : Registering command handlers for SDK TCF services
+13:47:46 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+13:47:48 INFO  : XSCT server has started successfully.
+13:47:49 INFO  : Successfully done setting XSCT server connection channel  
+13:47:49 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+13:47:49 INFO  : Successfully done setting SDK workspace  
+13:49:13 INFO  : Refreshed build settings on project system
+14:30:22 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+14:30:22 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+14:30:23 INFO  : Bootgen command execution is done.
+09:23:39 INFO  : Registering command handlers for SDK TCF services
+09:23:40 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:23:45 INFO  : XSCT server has started successfully.
+09:23:50 INFO  : Successfully done setting XSCT server connection channel  
+09:23:50 INFO  : Successfully done setting SDK workspace  
+09:23:50 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:23:50 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+09:24:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1525871383076,  Project:1525757052692
+09:24:00 INFO  : The hardware specification for project 'top_hw_platform_0' is different from F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:24:01 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+09:24:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:24:23 INFO  : 
+09:24:26 INFO  : 
+09:24:29 INFO  : 
+09:24:29 INFO  : Updating hardware inferred compiler options for fsbl.
+09:24:30 INFO  : Updating hardware inferred compiler options for pmu.
+09:24:31 INFO  : Updating hardware inferred compiler options for system.
+09:24:37 INFO  : Clearing existing target manager status.
+09:24:37 WARN  : Given IPC port value is invalid. Using default port 2350
+09:24:37 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+09:24:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:26:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:26:34 INFO  : Registering command handlers for SDK TCF services
+09:26:34 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:26:36 INFO  : XSCT server has started successfully.
+09:26:36 INFO  : Successfully done setting XSCT server connection channel  
+09:26:37 INFO  : Successfully done setting SDK workspace  
+09:26:37 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:27:47 INFO  : Refreshed build settings on project system
+09:37:59 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+09:37:59 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+09:38:00 INFO  : Bootgen command execution is done.
+12:04:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1525925065142,  Project:1525871383076
+12:04:41 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:04:43 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+12:04:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:04:59 INFO  : 
+12:05:01 INFO  : 
+12:05:04 INFO  : 
+12:05:05 INFO  : Updating hardware inferred compiler options for fsbl.
+12:05:06 INFO  : Updating hardware inferred compiler options for pmu.
+12:05:06 INFO  : Updating hardware inferred compiler options for system.
+12:05:07 INFO  : Clearing existing target manager status.
+12:05:07 WARN  : Given IPC port value is invalid. Using default port 2350
+12:05:07 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+12:05:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:09 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+12:05:11 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+12:05:13 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+12:05:16 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:05:23 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:33:01 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+13:33:02 INFO  : Bootgen command execution is done.
+15:28:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1525936339417,  Project:1525925065142
+15:28:57 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:29:00 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+15:29:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:29:14 INFO  : 
+15:29:17 INFO  : 
+15:29:19 INFO  : 
+15:29:20 INFO  : Updating hardware inferred compiler options for fsbl.
+15:29:21 INFO  : Updating hardware inferred compiler options for pmu.
+15:29:22 INFO  : Updating hardware inferred compiler options for system.
+15:29:22 INFO  : Clearing existing target manager status.
+15:29:22 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+15:29:23 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+15:29:26 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+15:29:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:29:35 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:32:29 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+15:32:30 INFO  : Bootgen command execution is done.
+09:53:26 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1525951519097,  Project:1525936339417
+09:53:26 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+09:53:27 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+09:53:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:53:41 INFO  : 
+09:53:43 INFO  : 
+09:53:46 INFO  : 
+09:53:47 INFO  : Updating hardware inferred compiler options for fsbl.
+09:53:47 INFO  : Updating hardware inferred compiler options for pmu.
+09:53:48 INFO  : Updating hardware inferred compiler options for system.
+09:53:48 INFO  : Clearing existing target manager status.
+09:53:48 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+09:53:50 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+09:53:52 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+09:53:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+09:53:59 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:35:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526009130697,  Project:1525951519097
+11:35:36 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:35:39 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+11:36:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:36:18 INFO  : 
+11:36:24 INFO  : 
+11:36:29 INFO  : 
+11:36:31 INFO  : Updating hardware inferred compiler options for fsbl.
+11:36:32 INFO  : Updating hardware inferred compiler options for pmu.
+11:36:32 INFO  : Updating hardware inferred compiler options for system.
+11:36:33 INFO  : Clearing existing target manager status.
+11:36:33 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+11:36:37 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+11:36:40 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+11:36:43 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:36:54 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:40:53 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+11:40:54 INFO  : Bootgen command execution is done.
+19:05:01 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read(BufferedReader.java:182)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:745)
+19:05:01 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+10:59:19 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+10:59:23 INFO  : XSCT server has started successfully.
+10:59:28 INFO  : Successfully done setting XSCT server connection channel  
+10:59:28 INFO  : Successfully done setting SDK workspace  
+10:59:45 INFO  : Registering command handlers for SDK TCF services
+10:59:45 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+10:59:46 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+10:59:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526093798121,  Project:1526009130697
+10:59:46 INFO  : The hardware specification for project 'top_hw_platform_0' is different from F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+10:59:47 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+11:00:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:00:17 INFO  : 
+11:00:21 INFO  : 
+11:00:24 INFO  : 
+11:00:25 INFO  : Updating hardware inferred compiler options for fsbl.
+11:00:26 INFO  : Updating hardware inferred compiler options for pmu.
+11:00:27 INFO  : Updating hardware inferred compiler options for system.
+11:00:27 INFO  : Clearing existing target manager status.
+11:00:27 WARN  : Given IPC port value is invalid. Using default port 2350
+11:00:27 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+11:00:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:23:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:24:02 INFO  : Registering command handlers for SDK TCF services
+11:24:02 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+11:24:04 INFO  : XSCT server has started successfully.
+11:24:04 INFO  : Successfully done setting XSCT server connection channel  
+11:24:05 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+11:24:05 INFO  : Successfully done setting SDK workspace  
+11:30:58 INFO  : Refreshed build settings on project system
+15:37:25 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526109736020,  Project:1526093798121
+15:37:25 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:37:28 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+15:37:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:37:48 INFO  : 
+15:37:51 INFO  : 
+15:37:53 INFO  : 
+15:37:54 INFO  : Updating hardware inferred compiler options for fsbl.
+15:37:55 INFO  : Updating hardware inferred compiler options for pmu.
+15:37:56 INFO  : Updating hardware inferred compiler options for system.
+15:37:57 INFO  : Clearing existing target manager status.
+15:37:57 WARN  : Given IPC port value is invalid. Using default port 2350
+15:37:57 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+15:37:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:37:58 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+15:38:01 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+15:38:03 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+15:38:06 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:38:12 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:41:47 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+15:41:47 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+15:41:48 INFO  : Bootgen command execution is done.
+16:47:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526114802733,  Project:1526109736020
+16:47:36 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:47:38 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+16:47:52 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:47:55 INFO  : 
+16:47:58 INFO  : 
+16:48:01 INFO  : 
+16:48:01 INFO  : Updating hardware inferred compiler options for fsbl.
+16:48:02 INFO  : Updating hardware inferred compiler options for pmu.
+16:48:03 INFO  : Updating hardware inferred compiler options for system.
+16:48:03 INFO  : Clearing existing target manager status.
+16:48:03 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+16:48:05 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+16:48:07 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+16:48:10 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:48:18 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:52:31 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+16:52:32 INFO  : Bootgen command execution is done.
+17:10:57 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+17:10:59 INFO  : Bootgen command execution is done.
+17:04:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526202259651,  Project:1526114802733
+17:04:36 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:04:37 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+17:04:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:04:53 INFO  : 
+17:04:55 INFO  : 
+17:04:58 INFO  : 
+17:04:59 INFO  : Updating hardware inferred compiler options for fsbl.
+17:05:00 INFO  : Updating hardware inferred compiler options for pmu.
+17:05:01 INFO  : Updating hardware inferred compiler options for system.
+17:05:01 INFO  : Clearing existing target manager status.
+17:05:01 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+17:05:02 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+17:05:05 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+17:05:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:05:15 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:07:40 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+17:07:41 INFO  : Bootgen command execution is done.
+17:13:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:13:42 INFO  : Registering command handlers for SDK TCF services
+17:13:42 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+17:13:44 INFO  : XSCT server has started successfully.
+17:13:46 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+17:13:46 INFO  : Successfully done setting XSCT server connection channel  
+17:13:46 INFO  : Successfully done setting SDK workspace  
+17:14:47 INFO  : Refreshed build settings on project system
+17:20:23 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+17:20:23 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+17:20:24 INFO  : Bootgen command execution is done.
+10:22:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526264447266,  Project:1526202259651
+10:22:38 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:22:41 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+10:23:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:23:11 INFO  : 
+10:23:17 INFO  : 
+10:23:24 INFO  : 
+10:23:24 INFO  : Updating hardware inferred compiler options for fsbl.
+10:23:25 INFO  : Updating hardware inferred compiler options for pmu.
+10:23:26 INFO  : Updating hardware inferred compiler options for system.
+10:23:26 INFO  : Clearing existing target manager status.
+10:23:28 WARN  : Given IPC port value is invalid. Using default port 2350
+10:23:28 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+10:23:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:23:36 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+10:23:38 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+10:23:40 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+10:23:43 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:23:52 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+10:34:54 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+10:34:55 INFO  : Bootgen command execution is done.
+16:05:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526284645729,  Project:1526264447266
+16:05:38 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:05:49 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+16:06:02 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:06:05 INFO  : 
+16:06:07 INFO  : 
+16:06:10 INFO  : 
+16:06:11 INFO  : Updating hardware inferred compiler options for fsbl.
+16:06:12 INFO  : Updating hardware inferred compiler options for pmu.
+16:06:12 INFO  : Updating hardware inferred compiler options for system.
+16:06:12 INFO  : Clearing existing target manager status.
+16:06:12 INFO  : Closing and re-opening the MSS file of ther project system_bsp
+16:06:14 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+16:06:17 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+16:06:19 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:06:27 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:10:33 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+16:10:34 INFO  : Bootgen command execution is done.
+16:16:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:17:37 INFO  : Registering command handlers for SDK TCF services
+16:17:37 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+16:17:39 INFO  : XSCT server has started successfully.
+16:17:39 INFO  : Successfully done setting XSCT server connection channel  
+16:17:41 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+16:17:41 INFO  : Successfully done setting SDK workspace  
+16:18:47 INFO  : Refreshed build settings on project system
+16:22:08 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+16:22:08 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+16:22:10 INFO  : Bootgen command execution is done.
+16:50:22 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+16:50:23 INFO  : Bootgen command execution is done.
+18:12:46 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+18:12:49 INFO  : XSCT server has started successfully.
+18:12:49 INFO  : Successfully done setting XSCT server connection channel  
+18:12:53 INFO  : Successfully done setting SDK workspace  
+18:13:06 INFO  : Registering command handlers for SDK TCF services
+18:13:06 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+18:13:07 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+09:24:58 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:25:01 INFO  : XSCT server has started successfully.
+09:25:05 INFO  : Successfully done setting XSCT server connection channel  
+09:25:05 INFO  : Successfully done setting SDK workspace  
+09:25:19 INFO  : Registering command handlers for SDK TCF services
+09:25:19 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:25:20 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+11:08:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526353644989,  Project:1526284645729
+11:08:46 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:08:50 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+11:09:02 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:09:13 INFO  : 
+11:09:16 INFO  : 
+11:09:20 INFO  : 
+11:09:20 INFO  : Updating hardware inferred compiler options for fsbl.
+11:09:21 INFO  : Updating hardware inferred compiler options for pmu.
+11:09:22 INFO  : Updating hardware inferred compiler options for system.
+11:09:22 INFO  : Clearing existing target manager status.
+11:09:22 WARN  : Given IPC port value is invalid. Using default port 2350
+11:09:22 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+11:09:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:10:25 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:10:41 INFO  : Registering command handlers for SDK TCF services
+11:10:41 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+11:10:43 INFO  : XSCT server has started successfully.
+11:10:45 INFO  : Successfully done setting XSCT server connection channel  
+11:10:45 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+11:10:45 INFO  : Successfully done setting SDK workspace  
+11:15:10 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+11:15:10 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+11:15:11 INFO  : Bootgen command execution is done.
+11:17:02 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+11:17:03 INFO  : Bootgen command execution is done.
+11:20:04 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+11:20:05 INFO  : Bootgen command execution is done.
+11:21:20 INFO  : Registering command handlers for SDK TCF services
+11:21:20 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+11:21:22 INFO  : XSCT server has started successfully.
+11:21:22 INFO  : Successfully done setting XSCT server connection channel  
+11:21:22 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+11:21:22 INFO  : Successfully done setting SDK workspace  
+13:43:52 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+13:43:52 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+13:43:53 INFO  : Bootgen command execution is done.
+14:48:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526366579379,  Project:1526353644989
+14:48:59 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:49:01 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+14:49:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:49:15 INFO  : 
+14:49:17 INFO  : 
+14:49:18 INFO  : Updating hardware inferred compiler options for fsbl.
+14:49:19 INFO  : Updating hardware inferred compiler options for pmu.
+14:49:19 INFO  : Clearing existing target manager status.
+14:49:19 WARN  : Given IPC port value is invalid. Using default port 2350
+14:49:19 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+14:49:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:49:20 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+14:49:22 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+14:49:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:49:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:51:19 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+14:51:20 INFO  : Bootgen command execution is done.
+16:40:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526373027436,  Project:1526366579379
+16:40:16 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:40:22 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+16:40:33 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:40:36 INFO  : 
+16:40:39 INFO  : 
+16:40:39 INFO  : Updating hardware inferred compiler options for fsbl.
+16:40:40 INFO  : Updating hardware inferred compiler options for pmu.
+16:40:40 INFO  : Clearing existing target manager status.
+16:40:40 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+16:40:42 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+16:40:45 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:40:49 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:42:40 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+16:42:41 INFO  : Bootgen command execution is done.
+16:52:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:55:20 INFO  : Registering command handlers for SDK TCF services
+16:55:20 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+16:55:22 INFO  : XSCT server has started successfully.
+16:55:22 INFO  : Successfully done setting XSCT server connection channel  
+16:55:23 INFO  : Successfully done setting SDK workspace  
+16:55:23 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+16:58:28 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+16:58:28 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+16:58:29 INFO  : Bootgen command execution is done.
+17:05:47 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+17:05:48 INFO  : Bootgen command execution is done.
+17:07:42 INFO  : Registering command handlers for SDK TCF services
+17:07:42 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+17:07:44 INFO  : XSCT server has started successfully.
+17:07:44 INFO  : Successfully done setting XSCT server connection channel  
+17:07:45 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+17:07:45 INFO  : Successfully done setting SDK workspace  
+17:12:19 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+17:12:19 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+17:12:20 INFO  : Bootgen command execution is done.
+17:14:34 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+17:14:35 INFO  : Bootgen command execution is done.
+17:24:23 INFO  : Registering command handlers for SDK TCF services
+17:24:23 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+17:24:24 INFO  : XSCT server has started successfully.
+17:24:24 INFO  : Successfully done setting XSCT server connection channel  
+17:24:24 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+17:24:24 INFO  : Successfully done setting SDK workspace  
+17:27:40 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+17:27:40 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+17:27:41 INFO  : Bootgen command execution is done.
+18:02:24 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+18:02:33 INFO  : XSCT server has started successfully.
+18:02:33 INFO  : Successfully done setting XSCT server connection channel  
+18:02:38 INFO  : Successfully done setting SDK workspace  
+18:02:53 INFO  : Registering command handlers for SDK TCF services
+18:02:53 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+18:02:53 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+18:03:15 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+18:03:17 INFO  : Bootgen command execution is done.
+18:06:06 INFO  : Project 'hw' created. You can now create BSPs and application projects targeting this hardware platform.
+18:15:34 INFO  : Registering command handlers for SDK TCF services
+18:15:34 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+18:15:36 INFO  : XSCT server has started successfully.
+18:15:37 INFO  : Successfully done setting XSCT server connection channel  
+18:15:37 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+18:15:37 INFO  : Successfully done setting SDK workspace  
+18:16:36 INFO  : Refreshed build settings on project system
+09:21:32 INFO  : Registering command handlers for SDK TCF services
+09:21:32 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:21:34 INFO  : XSCT server has started successfully.
+09:21:34 INFO  : Successfully done setting XSCT server connection channel  
+09:21:34 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:21:34 INFO  : Successfully done setting SDK workspace  
+09:25:51 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+09:25:51 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+09:25:52 INFO  : Bootgen command execution is done.
+13:18:57 INFO  : Registering command handlers for SDK TCF services
+13:18:57 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+13:18:58 INFO  : XSCT server has started successfully.
+13:18:58 INFO  : Successfully done setting XSCT server connection channel  
+13:18:59 INFO  : Successfully done setting SDK workspace  
+13:18:59 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+13:22:04 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+13:22:04 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+13:22:05 INFO  : Bootgen command execution is done.
+13:25:29 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin -w on
+13:25:30 INFO  : Bootgen command execution is done.
+13:30:50 INFO  : Registering command handlers for SDK TCF services
+13:30:51 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+13:30:53 INFO  : XSCT server has started successfully.
+13:30:53 INFO  : Successfully done setting XSCT server connection channel  
+13:30:53 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+13:30:53 INFO  : Successfully done setting SDK workspace  
+13:35:34 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+13:35:34 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+13:35:35 INFO  : Bootgen command execution is done.
+09:24:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526476513054,  Project:1526447916032
+09:24:17 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+09:24:21 INFO  : Copied contents of F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+09:24:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:24:38 INFO  : 
+09:24:40 INFO  : 
+09:24:42 INFO  : Updating hardware inferred compiler options for fsbl.
+09:24:43 INFO  : Updating hardware inferred compiler options for pmu.
+09:24:44 INFO  : Clearing existing target manager status.
+09:24:44 WARN  : Given IPC port value is invalid. Using default port 2350
+09:24:44 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+09:24:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:24:46 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+09:24:49 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+09:24:52 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+09:24:55 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+09:30:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:30:41 INFO  : Registering command handlers for SDK TCF services
+09:30:41 INFO  : Launching XSCT server: xsct.bat -interactive F:\postureRec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:30:43 INFO  : XSCT server has started successfully.
+09:30:43 INFO  : Successfully done setting XSCT server connection channel  
+09:30:45 INFO  : Processing command line option -hwspec F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:30:45 INFO  : Successfully done setting SDK workspace  
+09:35:50 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+09:35:50 INFO  : Creating new bif file F:\postureRec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+09:35:51 INFO  : Bootgen command execution is done.
+09:45:15 INFO  : Launching XSCT server: xsct.bat -interactive F:\posture_rec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+09:45:19 INFO  : XSCT server has started successfully.
+09:45:19 INFO  : Successfully done setting XSCT server connection channel  
+09:45:26 INFO  : Successfully done setting SDK workspace  
+09:45:46 INFO  : Registering command handlers for SDK TCF services
+09:45:46 INFO  : Processing command line option -hwspec F:/posture_rec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+09:45:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1524104054687,  Project:1526476513054
+09:45:51 INFO  : Project top_hw_platform_0's source hardware specification located at F:/postureRec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+09:45:58 INFO  : Project top_hw_platform_0's source hardware specification location will not be monitored anymore.
+10:15:56 INFO  : Registering command handlers for SDK TCF services
+10:15:57 INFO  : Launching XSCT server: xsct.bat -interactive F:\posture_rec\posture_rec_system\posture_rec_system.sdk\temp_xsdb_launch_script.tcl
+10:15:59 INFO  : XSCT server has started successfully.
+10:15:59 INFO  : Successfully done setting XSCT server connection channel  
+10:15:59 INFO  : Successfully done setting SDK workspace  
+10:15:59 INFO  : Processing command line option -hwspec F:/posture_rec/posture_rec_system/posture_rec_system.sdk/top.hdf.
+10:36:55 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynqmp -o F:\posture_rec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\BOOT.bin
+10:36:55 INFO  : Creating new bif file F:\posture_rec\posture_rec_system\posture_rec_system.sdk\fsbl\bootimage\fsbl.bif
+10:36:56 INFO  : Bootgen command execution is done.
+14:20:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1526616552182,  Project:1526555715569
+14:20:01 INFO  : Project top_hw_platform_0's source hardware specification located at F:/posture_rec/posture_rec_system/posture_rec_system.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:20:07 INFO  : Copied contents of F:/posture_rec/posture_rec_system/posture_rec_system.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+14:20:31 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:20:43 INFO  : 
+14:20:46 INFO  : 
+14:20:47 INFO  : Updating hardware inferred compiler options for fsbl.
+14:20:48 INFO  : Updating hardware inferred compiler options for pmu.
+14:20:48 INFO  : Clearing existing target manager status.
+14:20:48 WARN  : Given IPC port value is invalid. Using default port 2350
+14:20:48 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+14:20:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:20:53 INFO  : Closing and re-opening the MSS file of ther project fsbl_bsp
+14:20:56 INFO  : Closing and re-opening the MSS file of ther project pmu_bsp
+14:20:57 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:21:03 WARN  : Linker script will not be updated automatically. Users need to update it manually.

@@ -1,0 +1,141 @@
+14:21:42 **** Build of project pmu_bsp ****
+make -k all 
+"Running Make include in psu_pmu_0/libsrc/avbuf_v1_0/src"
+make -C psu_pmu_0/libsrc/avbuf_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/axipmon_v6_6/src"
+make -C psu_pmu_0/libsrc/axipmon_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/cpu_v2_6/src"
+make -C psu_pmu_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/csudma_v1_1/src"
+make -C psu_pmu_0/libsrc/csudma_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_pmu_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/dpdma_v1_0/src"
+make -C psu_pmu_0/libsrc/dpdma_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/emacps_v3_5/src"
+make -C psu_pmu_0/libsrc/emacps_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/gpio_v4_3/src"
+make -C psu_pmu_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/gpiops_v3_3/src"
+make -C psu_pmu_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/iicps_v3_5/src"
+make -C psu_pmu_0/libsrc/iicps_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/ipipsu_v2_3/src"
+make -C psu_pmu_0/libsrc/ipipsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/qspipsu_v1_5/src"
+make -C psu_pmu_0/libsrc/qspipsu_v1_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_pmu_0/libsrc/rtcpsu_v1_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/sdps_v3_3/src"
+make -C psu_pmu_0/libsrc/sdps_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/standalone_v6_4/src"
+make -C psu_pmu_0/libsrc/standalone_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/sysmonpsu_v2_2/src"
+make -C psu_pmu_0/libsrc/sysmonpsu_v2_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/uartps_v3_4/src"
+make -C psu_pmu_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/usbpsu_v1_3/src"
+make -C psu_pmu_0/libsrc/usbpsu_v1_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/video_common_v4_2/src"
+make -C psu_pmu_0/libsrc/video_common_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/xilfpga_v3_0/src"
+make -C psu_pmu_0/libsrc/xilfpga_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/xilsecure_v2_2/src"
+make -C psu_pmu_0/libsrc/xilsecure_v2_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in psu_pmu_0/libsrc/zdma_v1_3/src"
+make -C psu_pmu_0/libsrc/zdma_v1_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in psu_pmu_0/libsrc/avbuf_v1_0/src"
+make -C psu_pmu_0/libsrc/avbuf_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling avbuf"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in psu_pmu_0/libsrc/axipmon_v6_6/src"
+make -C psu_pmu_0/libsrc/axipmon_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axipmon"
+"Running Make libs in psu_pmu_0/libsrc/cpu_v2_6/src"
+make -C psu_pmu_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in psu_pmu_0/libsrc/csudma_v1_1/src"
+make -C psu_pmu_0/libsrc/csudma_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling csudma"
+"Running Make libs in psu_pmu_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_pmu_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling ddrcpsu"
+"Running Make libs in psu_pmu_0/libsrc/dpdma_v1_0/src"
+make -C psu_pmu_0/libsrc/dpdma_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling dpdma"
+In file included from xdpdma.h:59:0,
+                 from xdpdma.c:49:
+xdpdma.c: In function 'XDpDma_SetDescriptorAddress':
+xdpdma.c:272:24: warning: right shift count >= width of type [-Wshift-count-overflow]
+    (INTPTR) Descriptor >> 32);
+                        ^
+xdpdma_hw.h:1777:48: note: in definition of macro 'XDpDma_WriteReg'
+     XDpDma_Out32((BaseAddress) + (RegOffset), (Data))
+                                                ^~~~
+xdpdma.c: In function 'XDpDma_SetupAudioDescriptor':
+xdpdma.c:316:28: warning: right shift count >= width of type [-Wshift-count-overflow]
+         ((INTPTR) NextDesc >>
+                            ^~
+xdpdma.c: In function 'XDpDma_InitVideoDescriptor':
+xdpdma.c:661:24: warning: right shift count >= width of type [-Wshift-count-overflow]
+     ((INTPTR) CurrDesc >>
+                        ^~
+xdpdma.c: In function 'XDpDma_PlayAudio':
+xdpdma.c:858:36: warning: right shift count >= width of type [-Wshift-count-overflow]
+     (INTPTR) &Channel->Descriptor4 >> 32;
+                                    ^~
+xdpdma.c:884:36: warning: right shift count >= width of type [-Wshift-count-overflow]
+     (INTPTR) &Channel->Descriptor0 >> 32;
+                                    ^~
+"Running Make libs in psu_pmu_0/libsrc/emacps_v3_5/src"
+make -C psu_pmu_0/libsrc/emacps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in psu_pmu_0/libsrc/gpio_v4_3/src"
+make -C psu_pmu_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in psu_pmu_0/libsrc/gpiops_v3_3/src"
+make -C psu_pmu_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in psu_pmu_0/libsrc/iicps_v3_5/src"
+make -C psu_pmu_0/libsrc/iicps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in psu_pmu_0/libsrc/ipipsu_v2_3/src"
+make -C psu_pmu_0/libsrc/ipipsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling ipipsu"
+"Running Make libs in psu_pmu_0/libsrc/qspipsu_v1_5/src"
+make -C psu_pmu_0/libsrc/qspipsu_v1_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling qspipsu"
+"Running Make libs in psu_pmu_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_pmu_0/libsrc/rtcpsu_v1_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling rtcpsu"
+"Running Make libs in psu_pmu_0/libsrc/sdps_v3_3/src"
+make -C psu_pmu_0/libsrc/sdps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in psu_pmu_0/libsrc/standalone_v6_4/src"
+make -C psu_pmu_0/libsrc/standalone_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in psu_pmu_0/libsrc/sysmonpsu_v2_2/src"
+make -C psu_pmu_0/libsrc/sysmonpsu_v2_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sysmonpsu"
+"Running Make libs in psu_pmu_0/libsrc/uartps_v3_4/src"
+make -C psu_pmu_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in psu_pmu_0/libsrc/usbpsu_v1_3/src"
+make -C psu_pmu_0/libsrc/usbpsu_v1_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling usbpsu"
+"Running Make libs in psu_pmu_0/libsrc/video_common_v4_2/src"
+make -C psu_pmu_0/libsrc/video_common_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling video_common"
+"Running Make libs in psu_pmu_0/libsrc/xilfpga_v3_0/src"
+make -C psu_pmu_0/libsrc/xilfpga_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling xilfpga Library"
+"Running Make libs in psu_pmu_0/libsrc/xilsecure_v2_2/src"
+make -C psu_pmu_0/libsrc/xilsecure_v2_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling XilSecure Library"
+"Running Make libs in psu_pmu_0/libsrc/zdma_v1_3/src"
+make -C psu_pmu_0/libsrc/zdma_v1_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling zdma"
+'Finished building libraries'
+
+14:22:00 Build Finished (took 17s.805ms)
+

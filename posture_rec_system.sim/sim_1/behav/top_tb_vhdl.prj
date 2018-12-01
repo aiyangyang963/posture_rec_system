@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/ip/sub_unit/sim/sub_unit.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/ip/float_add_IP/sim/float_add_IP.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/ip/floating_point_compare/sim/floating_point_compare.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/ip/image_ram_rd_addr_add/sim/image_ram_rd_addr_add.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/ip/float_multiply/sim/float_multiply.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_axi_vdma_0_2/sim/system_axi_vdma_0_2.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_rst_ps7_0_150M_0/sim/system_rst_ps7_0_150M_0.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_rst_ps7_0_100M_2/sim/system_rst_ps7_0_100M_2.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_v_tc_0_0/sim/system_v_tc_0_0.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/ClockGen.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/SyncAsync.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/SyncAsyncReset.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/DVI_Constants.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/OutputSERDES.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/TMDS_Encoder.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/rgb2dvi.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_rgb2dvi_0_0/sim/system_rgb2dvi_0_0.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk_S00_AXI.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_axi_dynclk_0_0/sim/system_axi_dynclk_0_0.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_axi_gpio_0_0/sim/system_axi_gpio_0_0.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_proc_sys_reset_2_0/sim/system_proc_sys_reset_2_0.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_axi_gpio_1_0/sim/system_axi_gpio_1_0.vhd"
+vhdl xil_defaultlib  "../../../posture_rec_system.ip_user_files/bd/system/ip/system_axi_gpio_2_0/sim/system_axi_gpio_2_0.vhd"
+
+# Do not sort compile order
+nosort

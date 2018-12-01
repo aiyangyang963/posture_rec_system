@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="177678200000fs"></ZoomStartTime>
+      <ZoomEndTime time="177782000001fs"></ZoomEndTime>
+      <Cursor1Time time="177836667000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wave_markers>
+      <marker time="173913586000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/load_image_begin" type="logic">
+      <obj_property name="ElementShortName">load_image_begin</obj_property>
+      <obj_property name="ObjectShortName">load_image_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/load_image_finish" type="logic">
+      <obj_property name="ElementShortName">load_image_finish</obj_property>
+      <obj_property name="ObjectShortName">load_image_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/infor_update" type="logic">
+      <obj_property name="ElementShortName">infor_update</obj_property>
+      <obj_property name="ObjectShortName">infor_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/filter_num" type="array">
+      <obj_property name="ElementShortName">filter_num[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_num[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_size" type="array">
+      <obj_property name="ElementShortName">image_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_size[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/kernel_size" type="array">
+      <obj_property name="ElementShortName">kernel_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_next_read_en" type="logic">
+      <obj_property name="ElementShortName">image_next_read_en</obj_property>
+      <obj_property name="ObjectShortName">image_next_read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_addr_inputRAM_increase" type="logic">
+      <obj_property name="ElementShortName">image_addr_inputRAM_increase</obj_property>
+      <obj_property name="ObjectShortName">image_addr_inputRAM_increase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_rd_ready" type="logic">
+      <obj_property name="ElementShortName">image_rd_ready</obj_property>
+      <obj_property name="ObjectShortName">image_rd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_need" type="logic">
+      <obj_property name="ElementShortName">image_need</obj_property>
+      <obj_property name="ObjectShortName">image_need</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_loading_reg" type="logic">
+      <obj_property name="ElementShortName">image_loading_reg</obj_property>
+      <obj_property name="ObjectShortName">image_loading_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/buffer_image_rd" type="logic">
+      <obj_property name="ElementShortName">buffer_image_rd</obj_property>
+      <obj_property name="ObjectShortName">buffer_image_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/buffer_image_rd_addr" type="array">
+      <obj_property name="ElementShortName">buffer_image_rd_addr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_image_rd_addr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/buffer_image_rd_q" type="array">
+      <obj_property name="ElementShortName">buffer_image_rd_q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_image_rd_q[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_rd_q" type="array">
+      <obj_property name="ElementShortName">image_rd_q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">image_rd_q[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/buffer_image_rd_valid" type="array">
+      <obj_property name="ElementShortName">buffer_image_rd_valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_image_rd_valid[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_valid" type="array">
+      <obj_property name="ElementShortName">image_valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_valid[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/increase" type="logic">
+      <obj_property name="ElementShortName">increase</obj_property>
+      <obj_property name="ObjectShortName">increase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/clc_num" type="logic">
+      <obj_property name="ElementShortName">clc_num</obj_property>
+      <obj_property name="ObjectShortName">clc_num</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/cnt_threshold" type="array">
+      <obj_property name="ElementShortName">cnt_threshold[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_threshold[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/size" type="array">
+      <obj_property name="ElementShortName">size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/finish" type="logic">
+      <obj_property name="ElementShortName">finish</obj_property>
+      <obj_property name="ObjectShortName">finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/result" type="array">
+      <obj_property name="ElementShortName">result[23:0]</obj_property>
+      <obj_property name="ObjectShortName">result[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/num" type="array">
+      <obj_property name="ElementShortName">num[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/row_cnt" type="array">
+      <obj_property name="ElementShortName">row_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">row_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/col_cnt" type="array">
+      <obj_property name="ElementShortName">col_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">col_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/kernel_cnt" type="array">
+      <obj_property name="ElementShortName">kernel_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/image_shift_rc_cnt_m1/row_real_loc" type="array">
+      <obj_property name="ElementShortName">row_real_loc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">row_real_loc[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/CalImageChannel_replication_m1/data" type="array">
+      <obj_property name="ElementShortName">data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">data[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/CalImageChannel_replication_m1/choose" type="array">
+      <obj_property name="ElementShortName">choose[7:0]</obj_property>
+      <obj_property name="ObjectShortName">choose[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/CalImageChannel_replication_m1/valid" type="array">
+      <obj_property name="ElementShortName">valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valid[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/CalImageChannel_replication_m1/q" type="array">
+      <obj_property name="ElementShortName">q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">q[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_image_m1/CalImageChannel_replication_m1/valid_out" type="array">
+      <obj_property name="ElementShortName">valid_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_out[7:0]</obj_property>
+   </wvobject>
+</wave_config>

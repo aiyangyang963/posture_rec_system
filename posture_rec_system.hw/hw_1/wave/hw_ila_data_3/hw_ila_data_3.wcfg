@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/postureRec/posture_rec_system/posture_rec_system.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="16704fs"></ZoomEndTime>
+      <Cursor1Time time="50000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="pl_top_m1/deal_PostImage_m1/summation_m1/D_1" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/deal_PostImage_m1/summation_m1/D_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/deal_PostImage_m1/summation_m1/last_image" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/deal_PostImage_m1/summation_m1/last_image[31:0]</obj_property>
+      <obj_property name="ObjectShortName">last_image[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/deal_PostImage_m1/summation_m1/D" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_top_m1/deal_PostImage_m1/summation_m1/D[159:128]</obj_property>
+      <obj_property name="ObjectShortName">D[159:128]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/deal_PostImage_m1/summation_m1/probe0" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/deal_PostImage_m1/summation_m1/probe0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">probe0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

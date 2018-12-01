@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1006917000fs"></ZoomStartTime>
+      <ZoomEndTime time="1118617001fs"></ZoomEndTime>
+      <Cursor1Time time="1056667000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="106"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+      <marker time="1050017000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/rd_req" type="logic">
+      <obj_property name="ElementShortName">rd_req</obj_property>
+      <obj_property name="ObjectShortName">rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/rd_len" type="array">
+      <obj_property name="ElementShortName">rd_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_len[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/rd_finish" type="logic">
+      <obj_property name="ElementShortName">rd_finish</obj_property>
+      <obj_property name="ObjectShortName">rd_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/wr_req" type="logic">
+      <obj_property name="ElementShortName">wr_req</obj_property>
+      <obj_property name="ObjectShortName">wr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/wr_len" type="array">
+      <obj_property name="ElementShortName">wr_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_len[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/wr_finish" type="logic">
+      <obj_property name="ElementShortName">wr_finish</obj_property>
+      <obj_property name="ObjectShortName">wr_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/buffer_wr_req" type="logic">
+      <obj_property name="ElementShortName">buffer_wr_req</obj_property>
+      <obj_property name="ObjectShortName">buffer_wr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/buffer_wr_data" type="array">
+      <obj_property name="ElementShortName">buffer_wr_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_wr_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/buffer_rd_req" type="logic">
+      <obj_property name="ElementShortName">buffer_rd_req</obj_property>
+      <obj_property name="ObjectShortName">buffer_rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/buffer_rd_pre" type="logic">
+      <obj_property name="ElementShortName">buffer_rd_pre</obj_property>
+      <obj_property name="ObjectShortName">buffer_rd_pre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/buffer_rd_empty" type="logic">
+      <obj_property name="ElementShortName">buffer_rd_empty</obj_property>
+      <obj_property name="ObjectShortName">buffer_rd_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_DUT/axi_interface_control_m1/axi_read_write_master_tb_m1/buffer_rd_data" type="array">
+      <obj_property name="ElementShortName">buffer_rd_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_rd_data[63:0]</obj_property>
+   </wvobject>
+</wave_config>

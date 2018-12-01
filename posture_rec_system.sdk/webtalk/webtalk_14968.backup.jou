@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# 
+# Start of session at: Wed May 16 13:26:40 2018
+# Process ID: 14968
+# Current directory: F:/postureRec/posture_rec_system/posture_rec_system.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: F:/postureRec/posture_rec_system/posture_rec_system.sdk/webtalk/webtalk.log
+# Journal file: F:/postureRec/posture_rec_system/posture_rec_system.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

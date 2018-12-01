@@ -1,0 +1,10 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]F:\posture_rec\posture_rec_system\posture_rec_system.sdk\fsbl\Debug\fsbl.elf
+	[destination_device = pl]F:\posture_rec\posture_rec_system\posture_rec_system.sdk\top_hw_platform_0\top.bit
+	[destination_cpu = a53-0, exception_level = el-3, trustzone]F:\posture_rec\posture_rec_system\posture_rec_system.sdk\bl31.elf
+	[destination_cpu = a53-0, exception_level = el-2]F:\posture_rec\posture_rec_system\posture_rec_system.sdk\u-boot.elf
+	[pmufw_image]F:\posture_rec\posture_rec_system\posture_rec_system.sdk\pmu\Debug\pmu.elf
+}

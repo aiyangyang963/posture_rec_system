@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="929550334fs"></ZoomStartTime>
+      <ZoomEndTime time="1813550335fs"></ZoomEndTime>
+      <Cursor1Time time="1163217000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="281"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/slow_clk" type="logic">
+      <obj_property name="ElementShortName">slow_clk</obj_property>
+      <obj_property name="ObjectShortName">slow_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_return_axi" type="logic">
+      <obj_property name="ElementShortName">image_return_axi</obj_property>
+      <obj_property name="ObjectShortName">image_return_axi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/maxpooling_finish" type="logic">
+      <obj_property name="ElementShortName">maxpooling_finish</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_finish_inter" type="logic">
+      <obj_property name="ElementShortName">image_finish_inter</obj_property>
+      <obj_property name="ObjectShortName">image_finish_inter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/one_layer_finish" type="logic">
+      <obj_property name="ElementShortName">one_layer_finish</obj_property>
+      <obj_property name="ObjectShortName">one_layer_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_one_return_finish" type="logic">
+      <obj_property name="ElementShortName">image_one_return_finish</obj_property>
+      <obj_property name="ObjectShortName">image_one_return_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_head_begin" type="logic">
+      <obj_property name="ElementShortName">load_head_begin</obj_property>
+      <obj_property name="ObjectShortName">load_head_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_image_begin" type="logic">
+      <obj_property name="ElementShortName">load_image_begin</obj_property>
+      <obj_property name="ObjectShortName">load_image_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_image_finish" type="logic">
+      <obj_property name="ElementShortName">load_image_finish</obj_property>
+      <obj_property name="ObjectShortName">load_image_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_kernel_begin" type="logic">
+      <obj_property name="ElementShortName">load_kernel_begin</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_kernel_finish" type="logic">
+      <obj_property name="ElementShortName">load_kernel_finish</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_begin_inter" type="logic">
+      <obj_property name="ElementShortName">image_begin_inter</obj_property>
+      <obj_property name="ObjectShortName">image_begin_inter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_begin_inter_in_clk_domain" type="logic">
+      <obj_property name="ElementShortName">image_begin_inter_in_clk_domain</obj_property>
+      <obj_property name="ObjectShortName">image_begin_inter_in_clk_domain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_begin_inter_r" type="logic">
+      <obj_property name="ElementShortName">image_begin_inter_r</obj_property>
+      <obj_property name="ObjectShortName">image_begin_inter_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_begin_inter_r1" type="logic">
+      <obj_property name="ElementShortName">image_begin_inter_r1</obj_property>
+      <obj_property name="ObjectShortName">image_begin_inter_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_begin_inter_r2" type="logic">
+      <obj_property name="ElementShortName">image_begin_inter_r2</obj_property>
+      <obj_property name="ObjectShortName">image_begin_inter_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_begin_inter_r3" type="logic">
+      <obj_property name="ElementShortName">image_begin_inter_r3</obj_property>
+      <obj_property name="ObjectShortName">image_begin_inter_r3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/process_control_state" type="array">
+      <obj_property name="ElementShortName">process_control_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">process_control_state[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/algorithm_finish" type="logic">
+      <obj_property name="ElementShortName">algorithm_finish</obj_property>
+      <obj_property name="ObjectShortName">algorithm_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/axi_inter_out_finish" type="logic">
+      <obj_property name="ElementShortName">axi_inter_out_finish</obj_property>
+      <obj_property name="ObjectShortName">axi_inter_out_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_image_begin_long_pulse" type="logic">
+      <obj_property name="ElementShortName">load_image_begin_long_pulse</obj_property>
+      <obj_property name="ObjectShortName">load_image_begin_long_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_image_begin_long_pulse_r" type="logic">
+      <obj_property name="ElementShortName">load_image_begin_long_pulse_r</obj_property>
+      <obj_property name="ObjectShortName">load_image_begin_long_pulse_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_kernel_begin_long_pulse" type="logic">
+      <obj_property name="ElementShortName">load_kernel_begin_long_pulse</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_begin_long_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/load_kernel_begin_long_pulse_r" type="logic">
+      <obj_property name="ElementShortName">load_kernel_begin_long_pulse_r</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_begin_long_pulse_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/inter_cnt" type="array">
+      <obj_property name="ElementShortName">inter_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">inter_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_finish_inter_in_slow_clk_domain" type="logic">
+      <obj_property name="ElementShortName">image_finish_inter_in_slow_clk_domain</obj_property>
+      <obj_property name="ObjectShortName">image_finish_inter_in_slow_clk_domain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_finish_inter_in_slow_clk_domain_r" type="logic">
+      <obj_property name="ElementShortName">image_finish_inter_in_slow_clk_domain_r</obj_property>
+      <obj_property name="ObjectShortName">image_finish_inter_in_slow_clk_domain_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_finish_inter_in_clk_domain" type="logic">
+      <obj_property name="ElementShortName">image_finish_inter_in_clk_domain</obj_property>
+      <obj_property name="ObjectShortName">image_finish_inter_in_clk_domain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_finish_inter_in_clk_domain_r" type="logic">
+      <obj_property name="ElementShortName">image_finish_inter_in_clk_domain_r</obj_property>
+      <obj_property name="ObjectShortName">image_finish_inter_in_clk_domain_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/interrupt_m1/image_finish_inter_in_clk_domain_r1" type="logic">
+      <obj_property name="ElementShortName">image_finish_inter_in_clk_domain_r1</obj_property>
+      <obj_property name="ObjectShortName">image_finish_inter_in_clk_domain_r1</obj_property>
+   </wvobject>
+</wave_config>

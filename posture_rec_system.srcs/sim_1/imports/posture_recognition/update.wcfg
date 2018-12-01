@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5107679167000fs"></ZoomStartTime>
+      <ZoomEndTime time="5108223167001fs"></ZoomEndTime>
+      <Cursor1Time time="5107796667000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="221"></NameColumnWidth>
+      <ValueColumnWidth column_width="820"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/infor_update" type="logic">
+      <obj_property name="ElementShortName">infor_update</obj_property>
+      <obj_property name="ObjectShortName">infor_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/image_size" type="array">
+      <obj_property name="ElementShortName">image_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_size[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/maxpooling_en" type="logic">
+      <obj_property name="ElementShortName">maxpooling_en</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/last_image_sum_en" type="logic">
+      <obj_property name="ElementShortName">last_image_sum_en</obj_property>
+      <obj_property name="ObjectShortName">last_image_sum_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/image_wr" type="array">
+      <obj_property name="ElementShortName">image_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/image_data" type="array">
+      <obj_property name="ElementShortName">image_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">image_data[511:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/maxpooling_finish" type="logic">
+      <obj_property name="ElementShortName">maxpooling_finish</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/last_image_rd" type="logic">
+      <obj_property name="ElementShortName">last_image_rd</obj_property>
+      <obj_property name="ObjectShortName">last_image_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/last_image" type="array">
+      <obj_property name="ElementShortName">last_image[255:0]</obj_property>
+      <obj_property name="ObjectShortName">last_image[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_rd" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_rd</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_rd_addr" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_rd_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_rd_q" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_rd_q[511:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_q[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_rd_valid" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_rd_valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_valid[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_wr" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_wr_data" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_wr_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_wr_last" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr_last</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/deal_PostImage_wr_addr" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_wr_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/odd_image_size" type="array">
+      <obj_property name="ElementShortName">odd_image_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">odd_image_size[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/even_image_size" type="array">
+      <obj_property name="ElementShortName">even_image_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">even_image_size[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/wr_row_cnt" type="array">
+      <obj_property name="ElementShortName">wr_row_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_row_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/wr_col_cnt" type="array">
+      <obj_property name="ElementShortName">wr_col_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_col_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_full" type="array">
+      <obj_property name="ElementShortName">fifo_full[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_full[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_empty" type="array">
+      <obj_property name="ElementShortName">fifo_empty[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd_data" type="array">
+      <obj_property name="ElementShortName">fifo_rd_data[7:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data[7:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd" type="logic">
+      <obj_property name="ElementShortName">fifo_rd</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd_data_reg" type="array">
+      <obj_property name="ElementShortName">fifo_rd_data_reg[3:0][255:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data_reg[3:0][255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd_data_reg_wr_record" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_data_reg_wr_record</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data_reg_wr_record</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd_data_reg_rd_record" type="array">
+      <obj_property name="ElementShortName">fifo_rd_data_reg_rd_record[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data_reg_rd_record[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd_data_reg_wr_rd_cnt" type="array">
+      <obj_property name="ElementShortName">fifo_rd_data_reg_wr_rd_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data_reg_wr_rd_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd_r" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/fifo_rd_period" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_period</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/rd_row_cnt" type="array">
+      <obj_property name="ElementShortName">rd_row_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_row_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/rd_col_cnt" type="array">
+      <obj_property name="ElementShortName">rd_col_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_col_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4526" type="group">
+      <obj_property name="label">ROW_COL_PTR_FOR_2UNITE_WR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/odd_size" type="array">
+         <obj_property name="ElementShortName">odd_size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">odd_size[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/even_size" type="array">
+         <obj_property name="ElementShortName">even_size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">even_size[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/col" type="array">
+         <obj_property name="ElementShortName">col[7:0]</obj_property>
+         <obj_property name="ObjectShortName">col[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/row" type="array">
+         <obj_property name="ElementShortName">row[7:0]</obj_property>
+         <obj_property name="ObjectShortName">row[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/reach_end" type="logic">
+         <obj_property name="ElementShortName">reach_end</obj_property>
+         <obj_property name="ObjectShortName">reach_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/is_odd" type="logic">
+         <obj_property name="ElementShortName">is_odd</obj_property>
+         <obj_property name="ObjectShortName">is_odd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_wr/col_end" type="logic">
+         <obj_property name="ElementShortName">col_end</obj_property>
+         <obj_property name="ObjectShortName">col_end</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group4535" type="group">
+      <obj_property name="label">ROW_COL_PTR_FOR_2UNITE_RD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/odd_size" type="array">
+         <obj_property name="ElementShortName">odd_size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">odd_size[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/even_size" type="array">
+         <obj_property name="ElementShortName">even_size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">even_size[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/col" type="array">
+         <obj_property name="ElementShortName">col[7:0]</obj_property>
+         <obj_property name="ObjectShortName">col[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/row" type="array">
+         <obj_property name="ElementShortName">row[7:0]</obj_property>
+         <obj_property name="ObjectShortName">row[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/reach_end" type="logic">
+         <obj_property name="ElementShortName">reach_end</obj_property>
+         <obj_property name="ObjectShortName">reach_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/is_odd" type="logic">
+         <obj_property name="ElementShortName">is_odd</obj_property>
+         <obj_property name="ObjectShortName">is_odd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/update_m1/row_col_ptr_gen_for_2unite_rd/col_end" type="logic">
+         <obj_property name="ElementShortName">col_end</obj_property>
+         <obj_property name="ObjectShortName">col_end</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

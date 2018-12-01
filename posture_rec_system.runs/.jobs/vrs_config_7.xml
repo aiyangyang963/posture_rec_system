@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_v_axi4s_vid_out_0_0_synth_1" LaunchDir="F:/posture_rec/posture_rec_system/posture_rec_system.runs/system_v_axi4s_vid_out_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

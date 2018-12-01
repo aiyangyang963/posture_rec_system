@@ -1,0 +1,293 @@
+14:22:00 **** Build of configuration Debug for project pmu ****
+make all 
+'Building file: ../src/idle_hooks.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/idle_hooks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/idle_hooks.d" -MT"src/idle_hooks.o" -o "src/idle_hooks.o" "../src/idle_hooks.c"
+'Finished building: ../src/idle_hooks.c'
+' '
+'Building file: ../src/pm_api.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_api.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_api.d" -MT"src/pm_api.o" -o "src/pm_api.o" "../src/pm_api.c"
+'Finished building: ../src/pm_api.c'
+' '
+'Building file: ../src/pm_binding.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_binding.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_binding.d" -MT"src/pm_binding.o" -o "src/pm_binding.o" "../src/pm_binding.c"
+../src/pm_binding.c: In function 'XPfw_PmWakeHandler':
+../src/pm_binding.c:172:9: warning: 'status' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  return status;
+         ^~~~~~
+'Finished building: ../src/pm_binding.c'
+' '
+'Building file: ../src/pm_callbacks.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_callbacks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_callbacks.d" -MT"src/pm_callbacks.o" -o "src/pm_callbacks.o" "../src/pm_callbacks.c"
+'Finished building: ../src/pm_callbacks.c'
+' '
+'Building file: ../src/pm_clock.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_clock.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_clock.d" -MT"src/pm_clock.o" -o "src/pm_clock.o" "../src/pm_clock.c"
+'Finished building: ../src/pm_clock.c'
+' '
+'Building file: ../src/pm_common.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_common.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_common.d" -MT"src/pm_common.o" -o "src/pm_common.o" "../src/pm_common.c"
+'Finished building: ../src/pm_common.c'
+' '
+'Building file: ../src/pm_config.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_config.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_config.d" -MT"src/pm_config.o" -o "src/pm_config.o" "../src/pm_config.c"
+../src/pm_config.c: In function 'PmConfigHeaderHandler':
+../src/pm_config.c:456:6: warning: unused variable 'status' [-Wunused-variable]
+  int status = XST_SUCCESS;
+      ^~~~~~
+../src/pm_config.c: In function 'PmConfigLoadObject':
+../src/pm_config.c:535:9: warning: unused variable 'remWords' [-Wunused-variable]
+  u32 i, remWords;
+         ^~~~~~~~
+'Finished building: ../src/pm_config.c'
+' '
+'Building file: ../src/pm_core.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_core.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_core.d" -MT"src/pm_core.o" -o "src/pm_core.o" "../src/pm_core.c"
+'Finished building: ../src/pm_core.c'
+' '
+'Building file: ../src/pm_ddr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_ddr.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_ddr.d" -MT"src/pm_ddr.o" -o "src/pm_ddr.o" "../src/pm_ddr.c"
+'Finished building: ../src/pm_ddr.c'
+' '
+'Building file: ../src/pm_extern.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_extern.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_extern.d" -MT"src/pm_extern.o" -o "src/pm_extern.o" "../src/pm_extern.c"
+'Finished building: ../src/pm_extern.c'
+' '
+'Building file: ../src/pm_gic_proxy.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_gic_proxy.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_gic_proxy.d" -MT"src/pm_gic_proxy.o" -o "src/pm_gic_proxy.o" "../src/pm_gic_proxy.c"
+'Finished building: ../src/pm_gic_proxy.c'
+' '
+'Building file: ../src/pm_gpp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_gpp.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_gpp.d" -MT"src/pm_gpp.o" -o "src/pm_gpp.o" "../src/pm_gpp.c"
+'Finished building: ../src/pm_gpp.c'
+' '
+'Building file: ../src/pm_master.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_master.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_master.d" -MT"src/pm_master.o" -o "src/pm_master.o" "../src/pm_master.c"
+'Finished building: ../src/pm_master.c'
+' '
+'Building file: ../src/pm_mmio_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_mmio_access.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_mmio_access.d" -MT"src/pm_mmio_access.o" -o "src/pm_mmio_access.o" "../src/pm_mmio_access.c"
+'Finished building: ../src/pm_mmio_access.c'
+' '
+'Building file: ../src/pm_node.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node.d" -MT"src/pm_node.o" -o "src/pm_node.o" "../src/pm_node.c"
+'Finished building: ../src/pm_node.c'
+' '
+'Building file: ../src/pm_node_reset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node_reset.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node_reset.d" -MT"src/pm_node_reset.o" -o "src/pm_node_reset.o" "../src/pm_node_reset.c"
+'Finished building: ../src/pm_node_reset.c'
+' '
+'Building file: ../src/pm_notifier.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_notifier.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_notifier.d" -MT"src/pm_notifier.o" -o "src/pm_notifier.o" "../src/pm_notifier.c"
+'Finished building: ../src/pm_notifier.c'
+' '
+'Building file: ../src/pm_periph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_periph.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_periph.d" -MT"src/pm_periph.o" -o "src/pm_periph.o" "../src/pm_periph.c"
+'Finished building: ../src/pm_periph.c'
+' '
+'Building file: ../src/pm_pll.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_pll.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_pll.d" -MT"src/pm_pll.o" -o "src/pm_pll.o" "../src/pm_pll.c"
+'Finished building: ../src/pm_pll.c'
+' '
+'Building file: ../src/pm_power.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_power.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_power.d" -MT"src/pm_power.o" -o "src/pm_power.o" "../src/pm_power.c"
+'Finished building: ../src/pm_power.c'
+' '
+'Building file: ../src/pm_proc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_proc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_proc.d" -MT"src/pm_proc.o" -o "src/pm_proc.o" "../src/pm_proc.c"
+'Finished building: ../src/pm_proc.c'
+' '
+'Building file: ../src/pm_requirement.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_requirement.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_requirement.d" -MT"src/pm_requirement.o" -o "src/pm_requirement.o" "../src/pm_requirement.c"
+'Finished building: ../src/pm_requirement.c'
+' '
+'Building file: ../src/pm_reset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_reset.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_reset.d" -MT"src/pm_reset.o" -o "src/pm_reset.o" "../src/pm_reset.c"
+'Finished building: ../src/pm_reset.c'
+' '
+'Building file: ../src/pm_slave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_slave.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_slave.d" -MT"src/pm_slave.o" -o "src/pm_slave.o" "../src/pm_slave.c"
+'Finished building: ../src/pm_slave.c'
+' '
+'Building file: ../src/pm_sram.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_sram.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_sram.d" -MT"src/pm_sram.o" -o "src/pm_sram.o" "../src/pm_sram.c"
+'Finished building: ../src/pm_sram.c'
+' '
+'Building file: ../src/pm_system.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_system.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_system.d" -MT"src/pm_system.o" -o "src/pm_system.o" "../src/pm_system.c"
+'Finished building: ../src/pm_system.c'
+' '
+'Building file: ../src/pm_usb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_usb.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_usb.d" -MT"src/pm_usb.o" -o "src/pm_usb.o" "../src/pm_usb.c"
+'Finished building: ../src/pm_usb.c'
+' '
+'Building file: ../src/xpfw_aib.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_aib.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_aib.d" -MT"src/xpfw_aib.o" -o "src/xpfw_aib.o" "../src/xpfw_aib.c"
+'Finished building: ../src/xpfw_aib.c'
+' '
+'Building file: ../src/xpfw_core.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_core.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_core.d" -MT"src/xpfw_core.o" -o "src/xpfw_core.o" "../src/xpfw_core.c"
+'Finished building: ../src/xpfw_core.c'
+' '
+'Building file: ../src/xpfw_crc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_crc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_crc.d" -MT"src/xpfw_crc.o" -o "src/xpfw_crc.o" "../src/xpfw_crc.c"
+'Finished building: ../src/xpfw_crc.c'
+' '
+'Building file: ../src/xpfw_error_manager.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_error_manager.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_error_manager.d" -MT"src/xpfw_error_manager.o" -o "src/xpfw_error_manager.o" "../src/xpfw_error_manager.c"
+'Finished building: ../src/xpfw_error_manager.c'
+' '
+'Building file: ../src/xpfw_events.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_events.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_events.d" -MT"src/xpfw_events.o" -o "src/xpfw_events.o" "../src/xpfw_events.c"
+'Finished building: ../src/xpfw_events.c'
+' '
+'Building file: ../src/xpfw_interrupts.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_interrupts.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_interrupts.d" -MT"src/xpfw_interrupts.o" -o "src/xpfw_interrupts.o" "../src/xpfw_interrupts.c"
+'Finished building: ../src/xpfw_interrupts.c'
+' '
+'Building file: ../src/xpfw_ipi_manager.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_ipi_manager.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_ipi_manager.d" -MT"src/xpfw_ipi_manager.o" -o "src/xpfw_ipi_manager.o" "../src/xpfw_ipi_manager.c"
+'Finished building: ../src/xpfw_ipi_manager.c'
+' '
+'Building file: ../src/xpfw_main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_main.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_main.d" -MT"src/xpfw_main.o" -o "src/xpfw_main.o" "../src/xpfw_main.c"
+'Finished building: ../src/xpfw_main.c'
+' '
+'Building file: ../src/xpfw_mod_dap.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_dap.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_dap.d" -MT"src/xpfw_mod_dap.o" -o "src/xpfw_mod_dap.o" "../src/xpfw_mod_dap.c"
+'Finished building: ../src/xpfw_mod_dap.c'
+' '
+'Building file: ../src/xpfw_mod_em.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_em.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_em.d" -MT"src/xpfw_mod_em.o" -o "src/xpfw_mod_em.o" "../src/xpfw_mod_em.c"
+'Finished building: ../src/xpfw_mod_em.c'
+' '
+'Building file: ../src/xpfw_mod_legacy.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_legacy.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_legacy.d" -MT"src/xpfw_mod_legacy.o" -o "src/xpfw_mod_legacy.o" "../src/xpfw_mod_legacy.c"
+'Finished building: ../src/xpfw_mod_legacy.c'
+' '
+'Building file: ../src/xpfw_mod_pm.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_pm.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_pm.d" -MT"src/xpfw_mod_pm.o" -o "src/xpfw_mod_pm.o" "../src/xpfw_mod_pm.c"
+'Finished building: ../src/xpfw_mod_pm.c'
+' '
+'Building file: ../src/xpfw_mod_rtc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_rtc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_rtc.d" -MT"src/xpfw_mod_rtc.o" -o "src/xpfw_mod_rtc.o" "../src/xpfw_mod_rtc.c"
+'Finished building: ../src/xpfw_mod_rtc.c'
+' '
+'Building file: ../src/xpfw_mod_sched.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_sched.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_sched.d" -MT"src/xpfw_mod_sched.o" -o "src/xpfw_mod_sched.o" "../src/xpfw_mod_sched.c"
+'Finished building: ../src/xpfw_mod_sched.c'
+' '
+'Building file: ../src/xpfw_mod_stl.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_stl.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_stl.d" -MT"src/xpfw_mod_stl.o" -o "src/xpfw_mod_stl.o" "../src/xpfw_mod_stl.c"
+'Finished building: ../src/xpfw_mod_stl.c'
+' '
+'Building file: ../src/xpfw_mod_wdt.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_wdt.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_wdt.d" -MT"src/xpfw_mod_wdt.o" -o "src/xpfw_mod_wdt.o" "../src/xpfw_mod_wdt.c"
+'Finished building: ../src/xpfw_mod_wdt.c'
+' '
+'Building file: ../src/xpfw_module.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_module.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_module.d" -MT"src/xpfw_module.o" -o "src/xpfw_module.o" "../src/xpfw_module.c"
+'Finished building: ../src/xpfw_module.c'
+' '
+'Building file: ../src/xpfw_platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_platform.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_platform.d" -MT"src/xpfw_platform.o" -o "src/xpfw_platform.o" "../src/xpfw_platform.c"
+'Finished building: ../src/xpfw_platform.c'
+' '
+'Building file: ../src/xpfw_resets.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_resets.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_resets.d" -MT"src/xpfw_resets.o" -o "src/xpfw_resets.o" "../src/xpfw_resets.c"
+'Finished building: ../src/xpfw_resets.c'
+' '
+'Building file: ../src/xpfw_restart.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_restart.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_restart.d" -MT"src/xpfw_restart.o" -o "src/xpfw_restart.o" "../src/xpfw_restart.c"
+'Finished building: ../src/xpfw_restart.c'
+' '
+'Building file: ../src/xpfw_rom_interface.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_rom_interface.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_rom_interface.d" -MT"src/xpfw_rom_interface.o" -o "src/xpfw_rom_interface.o" "../src/xpfw_rom_interface.c"
+'Finished building: ../src/xpfw_rom_interface.c'
+' '
+'Building file: ../src/xpfw_scheduler.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_scheduler.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_scheduler.d" -MT"src/xpfw_scheduler.o" -o "src/xpfw_scheduler.o" "../src/xpfw_scheduler.c"
+'Finished building: ../src/xpfw_scheduler.c'
+' '
+'Building file: ../src/xpfw_start.S'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_start.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_start.d" -MT"src/xpfw_start.o" -o "src/xpfw_start.o" "../src/xpfw_start.S"
+'Finished building: ../src/xpfw_start.S'
+' '
+'Building file: ../src/xpfw_user_startup.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_user_startup.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_user_startup.d" -MT"src/xpfw_user_startup.o" -o "src/xpfw_user_startup.o" "../src/xpfw_user_startup.c"
+'Finished building: ../src/xpfw_user_startup.c'
+' '
+'Building file: ../src/xpfw_util.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_util.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_util.d" -MT"src/xpfw_util.o" -o "src/xpfw_util.o" "../src/xpfw_util.c"
+'Finished building: ../src/xpfw_util.c'
+' '
+'Building file: ../src/xpfw_xpu.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_xpu.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_xpu.d" -MT"src/xpfw_xpu.o" -o "src/xpfw_xpu.o" "../src/xpfw_xpu.c"
+'Finished building: ../src/xpfw_xpu.c'
+' '
+'Building target: pmu.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -nostartfiles -Wl,-T -Wl,../src/lscript.ld -L../../pmu_bsp/psu_pmu_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pmu.elf"  ./src/idle_hooks.o ./src/pm_api.o ./src/pm_binding.o ./src/pm_callbacks.o ./src/pm_clock.o ./src/pm_common.o ./src/pm_config.o ./src/pm_core.o ./src/pm_ddr.o ./src/pm_extern.o ./src/pm_gic_proxy.o ./src/pm_gpp.o ./src/pm_master.o ./src/pm_mmio_access.o ./src/pm_node.o ./src/pm_node_reset.o ./src/pm_notifier.o ./src/pm_periph.o ./src/pm_pll.o ./src/pm_power.o ./src/pm_proc.o ./src/pm_requirement.o ./src/pm_reset.o ./src/pm_slave.o ./src/pm_sram.o ./src/pm_system.o ./src/pm_usb.o ./src/xpfw_aib.o ./src/xpfw_core.o ./src/xpfw_crc.o ./src/xpfw_error_manager.o ./src/xpfw_events.o ./src/xpfw_interrupts.o ./src/xpfw_ipi_manager.o ./src/xpfw_main.o ./src/xpfw_mod_dap.o ./src/xpfw_mod_em.o ./src/xpfw_mod_legacy.o ./src/xpfw_mod_pm.o ./src/xpfw_mod_rtc.o ./src/xpfw_mod_sched.o ./src/xpfw_mod_stl.o ./src/xpfw_mod_wdt.o ./src/xpfw_module.o ./src/xpfw_platform.o ./src/xpfw_resets.o ./src/xpfw_restart.o ./src/xpfw_rom_interface.o ./src/xpfw_scheduler.o ./src/xpfw_start.o ./src/xpfw_user_startup.o ./src/xpfw_util.o ./src/xpfw_xpu.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilfpga,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pmu.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pmu.elf  |tee "pmu.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  54640	  16168	  13624	  84432	  149d0	pmu.elf
+'Finished building: pmu.elf.size'
+' '
+
+14:22:36 Build Finished (took 35s.904ms)
+

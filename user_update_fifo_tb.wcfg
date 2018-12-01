@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="user_update_fifo_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="user_update_fifo_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2152200000fs"></ZoomStartTime>
+      <ZoomEndTime time="2381400001fs"></ZoomEndTime>
+      <Cursor1Time time="1425000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/user_update_fifo_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/din" type="array">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/ram" type="array">
+      <obj_property name="ElementShortName">ram[15:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[15:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wr_cnt" type="array">
+      <obj_property name="ElementShortName">wr_cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_cnt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus588" type="vbus">
+      <obj_property name="label">wr_cnt[4]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wr_cnt[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus583" type="vbus">
+      <obj_property name="label">wr_cnt[3:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wr_cnt[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wr_cnt[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wr_cnt[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wr_cnt[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_cnt" type="array">
+      <obj_property name="ElementShortName">rd_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_cnt[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus572" type="vbus">
+      <obj_property name="label">rd_cnt[4:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="vbus590" type="vbus">
+         <obj_property name="label">rd_cnt[4:1]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_cnt[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_cnt[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_cnt[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_cnt[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_cnt[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus570" type="vbus">
+      <obj_property name="label">rd_cnt[5]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rd_cnt[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wrCnt_to_gray" type="array">
+      <obj_property name="ElementShortName">wrCnt_to_gray[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wrCnt_to_gray[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rdCnt_to_gray" type="array">
+      <obj_property name="ElementShortName">rdCnt_to_gray[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rdCnt_to_gray[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rdCnt_to_gray_r" type="array">
+      <obj_property name="ElementShortName">rdCnt_to_gray_r[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rdCnt_to_gray_r[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rdCnt_to_gray_r1" type="array">
+      <obj_property name="ElementShortName">rdCnt_to_gray_r1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rdCnt_to_gray_r1[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/rdCntGray_to_nature" type="array">
+      <obj_property name="ElementShortName">rdCntGray_to_nature[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rdCntGray_to_nature[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wrCnt_to_gray_r" type="array">
+      <obj_property name="ElementShortName">wrCnt_to_gray_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wrCnt_to_gray_r[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wrCnt_to_gray_r1" type="array">
+      <obj_property name="ElementShortName">wrCnt_to_gray_r1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wrCnt_to_gray_r1[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_update_fifo_tb/user_update_fifo_m/wrCntGray_to_nature" type="array">
+      <obj_property name="ElementShortName">wrCntGray_to_nature[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wrCntGray_to_nature[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

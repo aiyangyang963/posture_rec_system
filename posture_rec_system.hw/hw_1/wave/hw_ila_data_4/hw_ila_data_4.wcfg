@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/postureRec/posture_rec_system/posture_rec_system.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="13251fs"></ZoomEndTime>
+      <Cursor1Time time="51000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="pl_top_m1/interrupt_m1/inter_finish_counter_m1/conv_cnt" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/interrupt_m1/inter_finish_counter_m1/conv_cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_cnt[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/interrupt_m1/inter_finish_counter_m1/conv_layer_change_state" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/interrupt_m1/inter_finish_counter_m1/conv_layer_change_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_layer_change_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">conv_layer_change_state[3:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/interrupt_m1/inter_finish_counter_m1/image_one_return_finish" type="logic">
+      <obj_property name="ElementShortName">pl_top_m1/interrupt_m1/inter_finish_counter_m1/image_one_return_finish</obj_property>
+      <obj_property name="ObjectShortName">image_one_return_finish</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/interrupt_m1/inter_finish_counter_m1/one_layer_finish" type="logic">
+      <obj_property name="ElementShortName">pl_top_m1/interrupt_m1/inter_finish_counter_m1/one_layer_finish</obj_property>
+      <obj_property name="ObjectShortName">one_layer_finish</obj_property>
+      <obj_property name="label">one_layer_finish</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

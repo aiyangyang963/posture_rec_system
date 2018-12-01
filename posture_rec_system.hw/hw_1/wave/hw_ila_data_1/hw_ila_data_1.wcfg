@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Administrator/Desktop/posture_rec_system_20180521/posture_rec_system.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="19380001fs"></ZoomEndTime>
+      <Cursor1Time time="508000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/araddr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/araddr[2:2]</obj_property>
+      <obj_property name="ObjectShortName">araddr[2:2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/arlen" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">arlen[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/awlen" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">awlen[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/axi_write_read_control" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/axi_write_read_control[6:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_write_read_control[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus701" type="vbus">
+      <obj_property name="label">awaddr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/awaddr" type="array">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/awaddr[31:3]</obj_property>
+         <obj_property name="ObjectShortName">awaddr[31:3]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_rd_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus420" type="vbus">
+      <obj_property name="label">buffer_rd_data[31:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus387" type="vbus">
+      <obj_property name="label">buffer_rd_data[63:32]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[63]" type="logic">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[62]" type="logic">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[61]" type="logic">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[60]" type="logic">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[59]" type="logic">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[58]" type="logic">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[57]" type="logic">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[56]" type="logic">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[55]" type="logic">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[54]" type="logic">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[53]" type="logic">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[52]" type="logic">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[51]" type="logic">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[50]" type="logic">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[49]" type="logic">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[48]" type="logic">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[47]" type="logic">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[46]" type="logic">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[45]" type="logic">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[44]" type="logic">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[43]" type="logic">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[42]" type="logic">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[41]" type="logic">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[40]" type="logic">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[39]" type="logic">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[38]" type="logic">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[37]" type="logic">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[36]" type="logic">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[35]" type="logic">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[34]" type="logic">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[33]" type="logic">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_data[32]" type="logic">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_empty" type="logic">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_empty</obj_property>
+      <obj_property name="ObjectShortName">buffer_rd_empty</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_req" type="logic">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/buffer_rd_req</obj_property>
+      <obj_property name="ObjectShortName">buffer_rd_req</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata" type="array">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus474" type="vbus">
+      <obj_property name="label">rdata[31:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus441" type="vbus">
+      <obj_property name="label">rdata[63:32]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[63]" type="logic">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[62]" type="logic">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[61]" type="logic">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[60]" type="logic">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[59]" type="logic">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[58]" type="logic">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[57]" type="logic">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[56]" type="logic">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[55]" type="logic">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[54]" type="logic">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[53]" type="logic">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[52]" type="logic">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[51]" type="logic">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[50]" type="logic">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[49]" type="logic">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[48]" type="logic">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[47]" type="logic">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[46]" type="logic">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[45]" type="logic">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[44]" type="logic">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[43]" type="logic">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[42]" type="logic">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[41]" type="logic">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[40]" type="logic">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[39]" type="logic">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[38]" type="logic">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[37]" type="logic">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[36]" type="logic">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[35]" type="logic">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[34]" type="logic">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[33]" type="logic">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rdata[32]" type="logic">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rlast" type="logic">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/rlast</obj_property>
+      <obj_property name="ObjectShortName">rlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/wr_finish" type="logic">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/wr_finish</obj_property>
+      <obj_property name="ObjectShortName">wr_finish</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/wr_req" type="logic">
+      <obj_property name="ElementShortName">pl_top_m1/axi_interface_control_m1/axi_read_write_master_m1/wr_req</obj_property>
+      <obj_property name="ObjectShortName">wr_req</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

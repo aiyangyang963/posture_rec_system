@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1810878121164fs"></ZoomStartTime>
+      <ZoomEndTime time="1847428496168fs"></ZoomEndTime>
+      <Cursor1Time time="1841336767000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="230"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wave_markers>
+      <marker time="5098790000000" label="" />
+      <marker time="1833263527000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="group413" type="group">
+      <obj_property name="label">SUMMATION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/filter_num" type="array">
+         <obj_property name="ElementShortName">filter_num[7:0]</obj_property>
+         <obj_property name="ObjectShortName">filter_num[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/kernel_num" type="array">
+         <obj_property name="ElementShortName">kernel_num[4:0]</obj_property>
+         <obj_property name="ObjectShortName">kernel_num[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/last_image_sum_en" type="logic">
+         <obj_property name="ElementShortName">last_image_sum_en</obj_property>
+         <obj_property name="ObjectShortName">last_image_sum_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/image_data" type="array">
+         <obj_property name="ElementShortName">image_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">image_data[255:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/image_valid" type="array">
+         <obj_property name="ElementShortName">image_valid[7:0]</obj_property>
+         <obj_property name="ObjectShortName">image_valid[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/last_image_rd" type="logic">
+         <obj_property name="ElementShortName">last_image_rd</obj_property>
+         <obj_property name="ObjectShortName">last_image_rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/last_image_temp" type="array">
+         <obj_property name="ElementShortName">last_image_temp[255:0]</obj_property>
+         <obj_property name="ObjectShortName">last_image_temp[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/last_image" type="array">
+         <obj_property name="ElementShortName">last_image[255:0]</obj_property>
+         <obj_property name="ObjectShortName">last_image[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/maxpooling_image" type="array">
+         <obj_property name="ElementShortName">maxpooling_image[255:0]</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_image[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/maxpooling_image_valid" type="array">
+         <obj_property name="ElementShortName">maxpooling_image_valid[7:0]</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_image_valid[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/result_temp" type="array">
+         <obj_property name="ElementShortName">result_temp[255:0]</obj_property>
+         <obj_property name="ObjectShortName">result_temp[255:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/r_valid" type="logic">
+         <obj_property name="ElementShortName">r_valid</obj_property>
+         <obj_property name="ObjectShortName">r_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/r_valid_r1" type="logic">
+         <obj_property name="ElementShortName">r_valid_r1</obj_property>
+         <obj_property name="ObjectShortName">r_valid_r1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/r_valid_r2" type="logic">
+         <obj_property name="ElementShortName">r_valid_r2</obj_property>
+         <obj_property name="ObjectShortName">r_valid_r2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_image_valid" type="array">
+         <obj_property name="ElementShortName">sum_image_valid[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_image_valid[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/maxpooling_image_temp" type="array">
+         <obj_property name="ElementShortName">maxpooling_image_temp[255:0]</obj_property>
+         <obj_property name="ObjectShortName">maxpooling_image_temp[255:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/result_temp_r" type="array">
+         <obj_property name="ElementShortName">result_temp_r[255:0]</obj_property>
+         <obj_property name="ObjectShortName">result_temp_r[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/r_valid_r" type="logic">
+         <obj_property name="ElementShortName">r_valid_r</obj_property>
+         <obj_property name="ObjectShortName">r_valid_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="group484" type="group">
+         <obj_property name="label">SUM 8CHANNEL</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/kernel_num" type="array">
+            <obj_property name="ElementShortName">kernel_num[4:0]</obj_property>
+            <obj_property name="ObjectShortName">kernel_num[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/data" type="array">
+            <obj_property name="ElementShortName">data[255:0]</obj_property>
+            <obj_property name="ObjectShortName">data[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/valid" type="logic">
+            <obj_property name="ElementShortName">valid</obj_property>
+            <obj_property name="ObjectShortName">valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/result" type="array">
+            <obj_property name="ElementShortName">result[255:0]</obj_property>
+            <obj_property name="ObjectShortName">result[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/r_valid" type="logic">
+            <obj_property name="ElementShortName">r_valid</obj_property>
+            <obj_property name="ObjectShortName">r_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/addend" type="array">
+            <obj_property name="ElementShortName">addend[3:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">addend[3:0][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/addend_en" type="logic">
+            <obj_property name="ElementShortName">addend_en</obj_property>
+            <obj_property name="ObjectShortName">addend_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/add_result" type="array">
+            <obj_property name="ElementShortName">add_result[1:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">add_result[1:0][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/add_result_valid" type="logic">
+            <obj_property name="ElementShortName">add_result_valid</obj_property>
+            <obj_property name="ObjectShortName">add_result_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/sum_control" type="array">
+            <obj_property name="ElementShortName">sum_control[3:0]</obj_property>
+            <obj_property name="ObjectShortName">sum_control[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/pl_top_DUT/deal_PostImage_m1/summation_m1/sum_8channel_m1/add_result_buf" type="array">
+            <obj_property name="ElementShortName">add_result_buf[1:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">add_result_buf[1:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

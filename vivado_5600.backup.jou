@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon May 14 17:39:40 2018
+# Process ID: 5600
+# Current directory: F:/postureRec/posture_rec_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8160 F:\postureRec\posture_rec_system\posture_rec_system.xpr
+# Log file: F:/postureRec/posture_rec_system/vivado.log
+# Journal file: F:/postureRec/posture_rec_system\vivado.jou
+#-----------------------------------------------------------
+start_gui

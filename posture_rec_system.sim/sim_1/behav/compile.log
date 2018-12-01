@@ -1,0 +1,253 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/head_for_interate_ram/sim/head_for_interate_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module head_for_interate_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/ram_to_post_virtual_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_to_post_virtual_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/post_to_ram_virtual_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module post_to_ram_virtual_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/post_image_ram/sim/post_image_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module post_image_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/postImage_channel_choose.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module postImage_channel_choose
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/mux_ramtofifo_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_ramtofifo_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/image_ram_multi_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_ram_multi_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/image_prerd_toaxi_fifo/sim/image_prerd_toaxi_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_prerd_toaxi_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/axi_read_image_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_read_image_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/user_maxpooling_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module user_maxpooling_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/update_fifo/sim/update_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/sum_8channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sum_8channel
+INFO: [VRFC 10-311] analyzing module sum_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/sum_4channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sum_4channel
+INFO: [VRFC 10-311] analyzing module sum_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/multiplier_3x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_3x
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/wfifo_location_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wfifo_location_cal
+INFO: [VRFC 10-311] analyzing module wfifo_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/sub_com.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_com
+INFO: [VRFC 10-2458] undeclared symbol greater, assumed default net type wire [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/sub_com.v:48]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/shift_window_fifo_for_image/sim/shift_window_fifo_for_image.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_window_fifo_for_image
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/shift_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/rect_linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rect_linear
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/ram_to_cal_virtual_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_to_cal_virtual_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/mux_3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/mul_results_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_results_adder
+INFO: [VRFC 10-311] analyzing module sumorder_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/multi_rd_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_rd_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/multi_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/kernel_fifo/sim/kernel_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/iterate_head.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iterate_head
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/image_ram/sim/image_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/head_fifo/sim/head_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module head_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/err_detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module err_detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/data_from_window.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_from_window
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/counter_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/CalImageChannel_replication.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CalImageChannel_replication
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/addr_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/image_write_buffer_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_write_buffer_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/update.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/summation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module summation
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/max_pooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max_pooling
+INFO: [VRFC 10-311] analyzing module maxpooling_finish_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/shift_window.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_window
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/mux_head_image_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_head_image_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/load_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/load_image.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_image
+INFO: [VRFC 10-311] analyzing module image_shift_rc_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/load_head.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_head
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/kernel_buffer_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_buffer_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/information_read_write.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module information_read_write
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/image_read_buffer_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_read_buffer_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/head_bufer_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module head_bufer_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/axi_read_write_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_read_write_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/interrupt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module interrupt
+INFO: [VRFC 10-311] analyzing module inter_finish_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/deal_PostImage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module deal_PostImage
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_processing_system7_0_1/sim/system_processing_system7_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_processing_system7_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/tdata_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tdata_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/tuser_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tuser_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/tstrb_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tstrb_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/tkeep_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tkeep_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/tid_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tid_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/tdest_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tdest_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/tlast_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tlast_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/hdl/top_system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axis_subset_converter_0_0/sim/system_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ipshared/e147/xlconstant.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xlconstant
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_xlconstant_0_0/sim/system_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_v_axi4s_vid_out_0_0/sim/system_v_axi4s_vid_out_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_v_axi4s_vid_out_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_xbar_1/sim/system_xbar_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_xbar_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/mmcme2_drp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmcme2_drp
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_xlconstant_1_0/sim/system_xlconstant_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_xlconstant_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ipshared/2e37/xlconcat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xlconcat
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_xlconcat_0_0/sim/system_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/hdl/system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1H7AUOX
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_4Y7TYO
+INFO: [VRFC 10-311] analyzing module m02_couplers_imp_FKL2TE
+INFO: [VRFC 10-311] analyzing module m03_couplers_imp_15QZ4LV
+INFO: [VRFC 10-311] analyzing module m04_couplers_imp_TUCI1Y
+INFO: [VRFC 10-311] analyzing module m05_couplers_imp_1IWS6WN
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_11SE3QO
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1P403ZT
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_Y9JEWS
+INFO: [VRFC 10-311] analyzing module system
+INFO: [VRFC 10-311] analyzing module system_axi_interconnect_0_0
+INFO: [VRFC 10-311] analyzing module system_axi_mem_intercon_2
+INFO: [VRFC 10-311] analyzing module system_ps7_0_axi_periph_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_auto_pc_1/sim/system_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/PLL/PLL_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PLL_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/PLL/PLL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PLL
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/load_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/cal_image.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cal_image
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/buffer_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buffer_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/axi_interface_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_interface_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/hdl/system_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/pl_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol wid, assumed default net type wire [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/new/top.v:282]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sim_1/new/axi_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sim_1/new/start_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sim_1/new/clk_rst.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_rst
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sim_1/new/top_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/posture_rec/posture_rec_system/posture_rec_system.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/sub_unit/sim/sub_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sub_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/float_add_IP/sim/float_add_IP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity float_add_IP
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/floating_point_compare/sim/floating_point_compare.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity floating_point_compare
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/image_ram_rd_addr_add/sim/image_ram_rd_addr_add.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity image_ram_rd_addr_add
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/ip/float_multiply/sim/float_multiply.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity float_multiply
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axi_vdma_0_2/sim/system_axi_vdma_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_axi_vdma_0_2
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_rst_ps7_0_150M_0/sim/system_rst_ps7_0_150M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_rst_ps7_0_150M_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_rst_ps7_0_100M_2/sim/system_rst_ps7_0_100M_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_rst_ps7_0_100M_2
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_v_tc_0_0/sim/system_v_tc_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_v_tc_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/ClockGen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ClockGen
+ERROR: [VRFC 10-149] 'resetbridge' is not compiled in library xil_defaultlib [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/ClockGen.vhd:56]
+ERROR: [VRFC 10-149] 'syncasync' is not compiled in library xil_defaultlib [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/ClockGen.vhd:64]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/ClockGen.vhd:46]
+INFO: [VRFC 10-240] VHDL file F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/ClockGen.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/SyncAsync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SyncAsync
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/SyncAsyncReset.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ResetBridge
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/DVI_Constants.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/OutputSERDES.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OutputSERDES
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/TMDS_Encoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TMDS_Encoder
+ERROR: [VRFC 10-77] indexed name is not a type [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/TMDS_Encoder.vhd:90]
+ERROR: [VRFC 10-1472] type error near sum_bits ; expected type unsigned [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/TMDS_Encoder.vhd:112]
+ERROR: [VRFC 10-1472] type error near sum_bits ; expected type unsigned [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/TMDS_Encoder.vhd:137]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/TMDS_Encoder.vhd:80]
+INFO: [VRFC 10-240] VHDL file F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/TMDS_Encoder.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/24a6/src/rgb2dvi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rgb2dvi
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_rgb2dvi_0_0/sim/system_rgb2dvi_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_rgb2dvi_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity axi_dynclk_S00_AXI
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity axi_dynclk
+WARNING: [VRFC 10-280] actual for formal port rst is neither a static name nor a globally static expression [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk.vhd:225]
+WARNING: [VRFC 10-280] actual for formal port s1_clkout0 is neither a static name nor a globally static expression [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk.vhd:227]
+WARNING: [VRFC 10-280] actual for formal port s1_clkfbout is neither a static name nor a globally static expression [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk.vhd:228]
+WARNING: [VRFC 10-280] actual for formal port s1_lock is neither a static name nor a globally static expression [F:/posture_rec/posture_rec_system/posture_rec_system.srcs/sources_1/bd/system/ipshared/9097/src/axi_dynclk.vhd:230]
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axi_dynclk_0_0/sim/system_axi_dynclk_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_axi_dynclk_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axi_gpio_0_0/sim/system_axi_gpio_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_axi_gpio_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_proc_sys_reset_2_0/sim/system_proc_sys_reset_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_proc_sys_reset_2_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axi_gpio_1_0/sim/system_axi_gpio_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_axi_gpio_1_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/posture_rec/posture_rec_system/posture_rec_system.ip_user_files/bd/system/ip/system_axi_gpio_2_0/sim/system_axi_gpio_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity system_axi_gpio_2_0

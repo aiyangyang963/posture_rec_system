@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="178281000000fs"></ZoomStartTime>
+      <ZoomEndTime time="178496500001fs"></ZoomEndTime>
+      <Cursor1Time time="178330000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_rd_need" type="logic">
+      <obj_property name="ElementShortName">image_rd_need</obj_property>
+      <obj_property name="ObjectShortName">image_rd_need</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_finish" type="logic">
+      <obj_property name="ElementShortName">image_wr_finish</obj_property>
+      <obj_property name="ObjectShortName">image_wr_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_num" type="array">
+      <obj_property name="ElementShortName">image_wr_num[12:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_num[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_size" type="array">
+      <obj_property name="ElementShortName">image_wr_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_size[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_req" type="logic">
+      <obj_property name="ElementShortName">image_wr_req</obj_property>
+      <obj_property name="ObjectShortName">image_wr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_data" type="array">
+      <obj_property name="ElementShortName">image_wr_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_rd_update" type="logic">
+      <obj_property name="ElementShortName">image_rd_update</obj_property>
+      <obj_property name="ObjectShortName">image_rd_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_rd_ready" type="logic">
+      <obj_property name="ElementShortName">image_rd_ready</obj_property>
+      <obj_property name="ObjectShortName">image_rd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/kernel_rd_num" type="array">
+      <obj_property name="ElementShortName">kernel_rd_num[4:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_rd_num[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_clk" type="logic">
+      <obj_property name="ElementShortName">load_image_clk</obj_property>
+      <obj_property name="ObjectShortName">load_image_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_rd" type="logic">
+      <obj_property name="ElementShortName">load_image_rd</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_rd_addr" type="array">
+      <obj_property name="ElementShortName">load_image_rd_addr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_addr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_rd_q" type="array">
+      <obj_property name="ElementShortName">load_image_rd_q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_q[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_valid" type="array">
+      <obj_property name="ElementShortName">load_image_valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">load_image_valid[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/wea" type="array">
+      <obj_property name="ElementShortName">wea[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/ena" type="array">
+      <obj_property name="ElementShortName">ena[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ena[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/enb" type="array">
+      <obj_property name="ElementShortName">enb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">enb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_addr" type="array">
+      <obj_property name="ElementShortName">image_wr_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr" type="array">
+      <obj_property name="ElementShortName">image_ram_rd_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">image_ram_rd_addr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/ram_rd_q" type="array">
+      <obj_property name="ElementShortName">ram_rd_q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_rd_q[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_ram_n" type="array">
+      <obj_property name="ElementShortName">image_wr_ram_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_ram_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_size2_div" type="array">
+      <obj_property name="ElementShortName">image_wr_size2_div[15:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_size2_div[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_ram_number_record_en" type="logic">
+      <obj_property name="ElementShortName">image_wr_ram_number_record_en</obj_property>
+      <obj_property name="ObjectShortName">image_wr_ram_number_record_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_num_in_load_image_clk_domain" type="logic">
+      <obj_property name="ElementShortName">image_wr_num_in_load_image_clk_domain</obj_property>
+      <obj_property name="ObjectShortName">image_wr_num_in_load_image_clk_domain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_size_in_load_image_clk_domain" type="logic">
+      <obj_property name="ElementShortName">image_wr_size_in_load_image_clk_domain</obj_property>
+      <obj_property name="ObjectShortName">image_wr_size_in_load_image_clk_domain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/oneimage_wr_ram_number_record" type="array">
+      <obj_property name="ElementShortName">oneimage_wr_ram_number_record[3:0]</obj_property>
+      <obj_property name="ObjectShortName">oneimage_wr_ram_number_record[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/k" type="array">
+      <obj_property name="ElementShortName">k[7:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">k[7:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_strobe" type="array">
+      <obj_property name="ElementShortName">image_ram_rd_strobe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">image_ram_rd_strobe[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_rd_r" type="logic">
+      <obj_property name="ElementShortName">load_image_rd_r</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_wr_ram_number_record" type="array">
+      <obj_property name="ElementShortName">image_wr_ram_number_record[3:0]</obj_property>
+      <obj_property name="ObjectShortName">image_wr_ram_number_record[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_num0" type="array">
+      <obj_property name="ElementShortName">image_ram_rd_addr_num0[12:0]</obj_property>
+      <obj_property name="ObjectShortName">image_ram_rd_addr_num0[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_start_addr" type="array">
+      <obj_property name="ElementShortName">image_ram_rd_start_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">image_ram_rd_start_addr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_rd_valid_temp" type="array">
+      <obj_property name="ElementShortName">image_rd_valid_temp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_rd_valid_temp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/image_rd_valid_temp1" type="array">
+      <obj_property name="ElementShortName">image_rd_valid_temp1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_rd_valid_temp1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_rd_r1" type="logic">
+      <obj_property name="ElementShortName">load_image_rd_r1</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_rd_r2" type="logic">
+      <obj_property name="ElementShortName">load_image_rd_r2</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_read_buffer_control_m1/load_image_rd_r3" type="logic">
+      <obj_property name="ElementShortName">load_image_rd_r3</obj_property>
+      <obj_property name="ObjectShortName">load_image_rd_r3</obj_property>
+   </wvobject>
+</wave_config>

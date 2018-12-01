@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="194503670030fs"></ZoomStartTime>
+      <ZoomEndTime time="380463265994fs"></ZoomEndTime>
+      <Cursor1Time time="349470000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="394"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/load_head_begin" type="logic">
+      <obj_property name="ElementShortName">load_head_begin</obj_property>
+      <obj_property name="ObjectShortName">load_head_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/load_head_rd" type="logic">
+      <obj_property name="ElementShortName">load_head_rd</obj_property>
+      <obj_property name="ObjectShortName">load_head_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/load_head_rd_q" type="array">
+      <obj_property name="ElementShortName">load_head_rd_q[63:0]</obj_property>
+      <obj_property name="ObjectShortName">load_head_rd_q[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/load_head_rd_q_bigEndian" type="array">
+      <obj_property name="ElementShortName">load_head_rd_q_bigEndian[63:0]</obj_property>
+      <obj_property name="ObjectShortName">load_head_rd_q_bigEndian[63:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/load_head_empty" type="logic">
+      <obj_property name="ElementShortName">load_head_empty</obj_property>
+      <obj_property name="ObjectShortName">load_head_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/image_num" type="array">
+      <obj_property name="ElementShortName">image_num[12:0]</obj_property>
+      <obj_property name="ObjectShortName">image_num[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/image_size" type="array">
+      <obj_property name="ElementShortName">image_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_size[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/image_sum_en" type="logic">
+      <obj_property name="ElementShortName">image_sum_en</obj_property>
+      <obj_property name="ObjectShortName">image_sum_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/image_update" type="logic">
+      <obj_property name="ElementShortName">image_update</obj_property>
+      <obj_property name="ObjectShortName">image_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/image_next_read_en" type="logic">
+      <obj_property name="ElementShortName">image_next_read_en</obj_property>
+      <obj_property name="ObjectShortName">image_next_read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/image_addr_inputRAM_increase" type="logic">
+      <obj_property name="ElementShortName">image_addr_inputRAM_increase</obj_property>
+      <obj_property name="ObjectShortName">image_addr_inputRAM_increase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/filter_num" type="array">
+      <obj_property name="ElementShortName">filter_num[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_num[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/kernel_num" type="array">
+      <obj_property name="ElementShortName">kernel_num[4:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_num[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/kernel_size" type="array">
+      <obj_property name="ElementShortName">kernel_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_size[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/kernel_step" type="array">
+      <obj_property name="ElementShortName">kernel_step[2:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_step[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/maxpooling_en" type="logic">
+      <obj_property name="ElementShortName">maxpooling_en</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/image_return_axi" type="logic">
+      <obj_property name="ElementShortName">image_return_axi</obj_property>
+      <obj_property name="ObjectShortName">image_return_axi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/infor_update" type="logic">
+      <obj_property name="ElementShortName">infor_update</obj_property>
+      <obj_property name="ObjectShortName">infor_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/load_head_rd_reg" type="logic">
+      <obj_property name="ElementShortName">load_head_rd_reg</obj_property>
+      <obj_property name="ObjectShortName">load_head_rd_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_head_m1/infor_update_temp" type="logic">
+      <obj_property name="ElementShortName">infor_update_temp</obj_property>
+      <obj_property name="ObjectShortName">infor_update_temp</obj_property>
+   </wvobject>
+</wave_config>

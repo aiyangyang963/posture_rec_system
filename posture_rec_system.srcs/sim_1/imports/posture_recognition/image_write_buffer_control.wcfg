@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3895000000001fs"></ZoomEndTime>
+      <Cursor1Time time="178110000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="335"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="101" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_wr_need" type="logic">
+      <obj_property name="ElementShortName">image_wr_need</obj_property>
+      <obj_property name="ObjectShortName">image_wr_need</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/filter_num" type="array">
+      <obj_property name="ElementShortName">filter_num[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_num[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_size" type="array">
+      <obj_property name="ElementShortName">image_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_size[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/infor_update" type="logic">
+      <obj_property name="ElementShortName">infor_update</obj_property>
+      <obj_property name="ObjectShortName">infor_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_return_axi" type="logic">
+      <obj_property name="ElementShortName">image_return_axi</obj_property>
+      <obj_property name="ObjectShortName">image_return_axi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/maxpooling_en" type="logic">
+      <obj_property name="ElementShortName">maxpooling_en</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_rd_req" type="logic">
+      <obj_property name="ElementShortName">image_rd_req</obj_property>
+      <obj_property name="ObjectShortName">image_rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_rd_pre" type="logic">
+      <obj_property name="ElementShortName">image_rd_pre</obj_property>
+      <obj_property name="ObjectShortName">image_rd_pre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_rd_finish" type="logic">
+      <obj_property name="ElementShortName">image_rd_finish</obj_property>
+      <obj_property name="ObjectShortName">image_rd_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_rd_empty" type="logic">
+      <obj_property name="ElementShortName">image_rd_empty</obj_property>
+      <obj_property name="ObjectShortName">image_rd_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_rd_data" type="array">
+      <obj_property name="ElementShortName">image_rd_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">image_rd_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_clk" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_clk</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_rd</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd_addr" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_rd_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd_q" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_rd_q[511:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_q[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd_valid_channel" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_rd_valid_channel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_valid_channel[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_data" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_wr_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_last" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr_last</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_addr" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_wr_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/maxpooling_finish" type="logic">
+      <obj_property name="ElementShortName">maxpooling_finish</obj_property>
+      <obj_property name="ObjectShortName">maxpooling_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_rd_finish_r1" type="logic">
+      <obj_property name="ElementShortName">image_rd_finish_r1</obj_property>
+      <obj_property name="ObjectShortName">image_rd_finish_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_rd_finish_r2" type="logic">
+      <obj_property name="ElementShortName">image_rd_finish_r2</obj_property>
+      <obj_property name="ObjectShortName">image_rd_finish_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_rd_q" type="array">
+      <obj_property name="ElementShortName">ram_rd_q[511:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_rd_q[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_ena" type="array">
+      <obj_property name="ElementShortName">ram_ena[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_ena[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_enb" type="array">
+      <obj_property name="ElementShortName">ram_enb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_enb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_wr_addr" type="array">
+      <obj_property name="ElementShortName">ram_wr_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wr_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_rd_addr" type="array">
+      <obj_property name="ElementShortName">ram_rd_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_rd_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_wr_data" type="array">
+      <obj_property name="ElementShortName">ram_wr_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wr_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_prerd_toaxi_fifo_full" type="logic">
+      <obj_property name="ElementShortName">image_prerd_toaxi_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">image_prerd_toaxi_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ramtofifo_data" type="array">
+      <obj_property name="ElementShortName">ramtofifo_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ramtofifo_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/fifo_wr" type="logic">
+      <obj_property name="ElementShortName">fifo_wr</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_prerd_toaxi_fifo_prog_full" type="logic">
+      <obj_property name="ElementShortName">image_prerd_toaxi_fifo_prog_full</obj_property>
+      <obj_property name="ObjectShortName">image_prerd_toaxi_fifo_prog_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_fifo_pre_read" type="logic">
+      <obj_property name="ElementShortName">image_fifo_pre_read</obj_property>
+      <obj_property name="ObjectShortName">image_fifo_pre_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_fifo_pre_read_reg1" type="logic">
+      <obj_property name="ElementShortName">image_fifo_pre_read_reg1</obj_property>
+      <obj_property name="ObjectShortName">image_fifo_pre_read_reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_fifo_pre_read_reg2" type="logic">
+      <obj_property name="ElementShortName">image_fifo_pre_read_reg2</obj_property>
+      <obj_property name="ObjectShortName">image_fifo_pre_read_reg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ramdata_cnt" type="array">
+      <obj_property name="ElementShortName">ramdata_cnt[7:0][12:0]</obj_property>
+      <obj_property name="ObjectShortName">ramdata_cnt[7:0][12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/axi_rd_ram_addr" type="array">
+      <obj_property name="ElementShortName">axi_rd_ram_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rd_ram_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_channel_no" type="array">
+      <obj_property name="ElementShortName">ram_channel_no[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_channel_no[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/clc" type="logic">
+      <obj_property name="ElementShortName">clc</obj_property>
+      <obj_property name="ObjectShortName">clc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/clc_low" type="logic">
+      <obj_property name="ElementShortName">clc_low</obj_property>
+      <obj_property name="ObjectShortName">clc_low</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/clc_array" type="array">
+      <obj_property name="ElementShortName">clc_array[7:0]</obj_property>
+      <obj_property name="ObjectShortName">clc_array[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/k" type="array">
+      <obj_property name="ElementShortName">k[7:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">k[7:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/axi_ram_rd" type="array">
+      <obj_property name="ElementShortName">axi_ram_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_ram_rd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/fifo_wr_temp" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_temp</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_temp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/fifo_wr_temp1" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_temp1</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_temp1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/fifo_wr_temp2" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_temp2</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_temp2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_channel_no_r" type="array">
+      <obj_property name="ElementShortName">ram_channel_no_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_channel_no_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/ram_channel_no_r1" type="array">
+      <obj_property name="ElementShortName">ram_channel_no_r1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_channel_no_r1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_wr_need_temp" type="logic">
+      <obj_property name="ElementShortName">image_wr_need_temp</obj_property>
+      <obj_property name="ObjectShortName">image_wr_need_temp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_wr_need_temp1" type="logic">
+      <obj_property name="ElementShortName">image_wr_need_temp1</obj_property>
+      <obj_property name="ObjectShortName">image_wr_need_temp1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_wr_need_temp2" type="logic">
+      <obj_property name="ElementShortName">image_wr_need_temp2</obj_property>
+      <obj_property name="ObjectShortName">image_wr_need_temp2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/oneImage_occupy_ram_wr_num" type="array">
+      <obj_property name="ElementShortName">oneImage_occupy_ram_wr_num[3:0]</obj_property>
+      <obj_property name="ObjectShortName">oneImage_occupy_ram_wr_num[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/oneImage_occupy_ram_rd_num" type="array">
+      <obj_property name="ElementShortName">oneImage_occupy_ram_rd_num[3:0]</obj_property>
+      <obj_property name="ObjectShortName">oneImage_occupy_ram_rd_num[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_size_multi" type="array">
+      <obj_property name="ElementShortName">image_size_multi[15:0]</obj_property>
+      <obj_property name="ObjectShortName">image_size_multi[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/infor_update_r" type="logic">
+      <obj_property name="ElementShortName">infor_update_r</obj_property>
+      <obj_property name="ObjectShortName">infor_update_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/infor_update_r1" type="logic">
+      <obj_property name="ElementShortName">infor_update_r1</obj_property>
+      <obj_property name="ObjectShortName">infor_update_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/infor_update_r2" type="logic">
+      <obj_property name="ElementShortName">infor_update_r2</obj_property>
+      <obj_property name="ObjectShortName">infor_update_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_addr" type="array">
+      <obj_property name="ElementShortName">PostImage_rd_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_location_in_filter" type="array">
+      <obj_property name="ElementShortName">PostImage_rd_location_in_filter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_location_in_filter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/channel_choose_rd_start" type="array">
+      <obj_property name="ElementShortName">channel_choose_rd_start[7:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_choose_rd_start[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/channel_choose_rd_valid" type="array">
+      <obj_property name="ElementShortName">channel_choose_rd_valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_choose_rd_valid[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_location_in_filter_r" type="array">
+      <obj_property name="ElementShortName">PostImage_rd_location_in_filter_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_location_in_filter_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_location_in_filter_change" type="logic">
+      <obj_property name="ElementShortName">PostImage_rd_location_in_filter_change</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_location_in_filter_change</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_location_in_filter_change_r" type="logic">
+      <obj_property name="ElementShortName">PostImage_rd_location_in_filter_change_r</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_location_in_filter_change_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_location_in_filter_change_edge" type="logic">
+      <obj_property name="ElementShortName">PostImage_rd_location_in_filter_change_edge</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_location_in_filter_change_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_location_in_filter_change_edge_mask" type="logic">
+      <obj_property name="ElementShortName">PostImage_rd_location_in_filter_change_edge_mask</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_location_in_filter_change_edge_mask</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_last_r" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr_last_r</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_last_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_last_r1" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr_last_r1</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_last_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_last_r2" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr_last_r2</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_last_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd_r" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_rd_r</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd_r1" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_rd_r1</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd_r2" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_rd_r2</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_r2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_rd_r3" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_rd_r3</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_rd_r3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/k1" type="array">
+      <obj_property name="ElementShortName">k1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/channel_choose_rd_valid_r" type="array">
+      <obj_property name="ElementShortName">channel_choose_rd_valid_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_choose_rd_valid_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/channel_choose_rd_valid_r1" type="array">
+      <obj_property name="ElementShortName">channel_choose_rd_valid_r1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_choose_rd_valid_r1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/post_ram_rd_req" type="array">
+      <obj_property name="ElementShortName">post_ram_rd_req[7:0]</obj_property>
+      <obj_property name="ObjectShortName">post_ram_rd_req[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr" type="array">
+      <obj_property name="ElementShortName">PostImage_wr_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter" type="array">
+      <obj_property name="ElementShortName">PostImage_wr_location_in_filter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_location_in_filter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/channel_choose_wr_start" type="array">
+      <obj_property name="ElementShortName">channel_choose_wr_start[7:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_choose_wr_start[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/channel_choose_wr_valid" type="array">
+      <obj_property name="ElementShortName">channel_choose_wr_valid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_choose_wr_valid[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_r" type="array">
+      <obj_property name="ElementShortName">PostImage_wr_location_in_filter_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_location_in_filter_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_change_edge_mask" type="logic">
+      <obj_property name="ElementShortName">PostImage_wr_location_in_filter_change_edge_mask</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_location_in_filter_change_edge_mask</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_change" type="logic">
+      <obj_property name="ElementShortName">PostImage_wr_location_in_filter_change</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_location_in_filter_change</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_change_r" type="logic">
+      <obj_property name="ElementShortName">PostImage_wr_location_in_filter_change_r</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_location_in_filter_change_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_change_edge" type="logic">
+      <obj_property name="ElementShortName">PostImage_wr_location_in_filter_change_edge</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_location_in_filter_change_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_data_r" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_wr_data_r[511:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_data_r[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_data_r1" type="array">
+      <obj_property name="ElementShortName">deal_PostImage_wr_data_r1[511:0]</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_data_r1[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_r" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr_r</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/deal_PostImage_wr_r1" type="logic">
+      <obj_property name="ElementShortName">deal_PostImage_wr_r1</obj_property>
+      <obj_property name="ObjectShortName">deal_PostImage_wr_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/post_ram_wr_req" type="array">
+      <obj_property name="ElementShortName">post_ram_wr_req[7:0]</obj_property>
+      <obj_property name="ObjectShortName">post_ram_wr_req[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_addr_r" type="array">
+      <obj_property name="ElementShortName">PostImage_rd_addr_r[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_addr_r[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_rd_addr_r1" type="array">
+      <obj_property name="ElementShortName">PostImage_rd_addr_r1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_rd_addr_r1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r" type="array">
+      <obj_property name="ElementShortName">PostImage_wr_addr_r[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_addr_r[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r1" type="array">
+      <obj_property name="ElementShortName">PostImage_wr_addr_r1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_addr_r1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r2" type="array">
+      <obj_property name="ElementShortName">PostImage_wr_addr_r2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PostImage_wr_addr_r2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group5066" type="group">
+      <obj_property name="label">IMAGE_RAM_MULTI_ADDR-2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m2/size" type="array">
+         <obj_property name="ElementShortName">size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">size[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m2/multi1" type="array">
+         <obj_property name="ElementShortName">multi1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">multi1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m2/multi2" type="array">
+         <obj_property name="ElementShortName">multi2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">multi2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m2/result" type="array">
+         <obj_property name="ElementShortName">result[15:0]</obj_property>
+         <obj_property name="ObjectShortName">result[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m2/result_temp" type="array">
+         <obj_property name="ElementShortName">result_temp[15:0]</obj_property>
+         <obj_property name="ObjectShortName">result_temp[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group5060" type="group">
+      <obj_property name="label">IMAGE_RAM_MULTI_ADDR-1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m1/size" type="array">
+         <obj_property name="ElementShortName">size[7:0]</obj_property>
+         <obj_property name="ObjectShortName">size[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m1/multi1" type="array">
+         <obj_property name="ElementShortName">multi1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">multi1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m1/multi2" type="array">
+         <obj_property name="ElementShortName">multi2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">multi2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m1/result" type="array">
+         <obj_property name="ElementShortName">result[15:0]</obj_property>
+         <obj_property name="ObjectShortName">result[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/pl_top_DUT/buffer_control_m1/image_write_buffer_control_m1/image_ram_multi_addr_m1/result_temp" type="array">
+         <obj_property name="ElementShortName">result_temp[15:0]</obj_property>
+         <obj_property name="ObjectShortName">result_temp[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,413 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Wed Aug 15 17:56:05 2018
+| Host         : PK8W2TV3U66VGZI running 64-bit Service Pack 1  (build 7601)
+| Command      : report_methodology -file opt_report_methodology_0.rpt -pb opt_report_methodology_0.pb -rpx opt_report_methodology_0.rpx
+| Design       : top
+| Device       : xczu3eg-sfva625-2-i
+| Speed File   : -2
+| Design State : Synthesized
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 74
++-----------+----------+----------------------------------------------------+------------+
+| Rule      | Severity | Description                                        | Violations |
++-----------+----------+----------------------------------------------------+------------+
+| DPIR-2    | Warning  | Asynchronous driver check                          | 13         |
+| SYNTH-6   | Warning  | Timing of a block RAM might be sub-optimal         | 24         |
+| SYNTH-9   | Warning  | Small multiplier                                   | 14         |
+| TIMING-4  | Warning  | Invalid primary clock redefinition on a clock tree | 1          |
+| TIMING-6  | Warning  | No common primary clock between related clocks     | 4          |
+| TIMING-7  | Warning  | No common node between related clocks              | 4          |
+| TIMING-16 | Warning  | Large setup violation                              | 12         |
+| TIMING-27 | Warning  | Invalid primary clock on hierarchical pin          | 1          |
+| CLKC-30   | Advisory | MMCME4 not driven by IO has BUFG in feedback loop  | 1          |
++-----------+----------+----------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIR-2#1 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#2 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#3 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#4 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#5 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#6 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#7 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#8 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#9 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#10 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#11 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#12 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-2#13 Warning
+Asynchronous driver check  
+DSP pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive input pin pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_addr_add_m1/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.not_unsigned_max_width.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_vx7.i_uniwrap/i_primitive/C[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+SYNTH-6#1 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[0].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#2 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[0].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#3 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[0].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#4 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[1].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#5 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[1].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#6 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[1].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#7 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[2].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#8 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[2].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#9 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[2].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#10 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[3].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#11 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[3].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#12 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[3].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#13 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[4].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#14 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[4].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#15 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[4].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#16 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[5].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#17 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[5].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#18 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[5].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#19 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[6].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#20 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[6].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#21 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[6].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#22 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[7].max_pooling_m/user_maxpooling_fifo_max1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#23 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[7].max_pooling_m/user_maxpooling_fifo_max2/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-6#24 Warning
+Timing of a block RAM might be sub-optimal  
+The timing for the instance pl_top_m1/deal_PostImage_m1/max_pooling_loop[7].max_pooling_m/user_maxpooling_fifo_nomax1/ram_reg_reg, implemented as a block RAM, might be sub-optimal as no output register was merged into the block
+Related violations: <none>
+
+SYNTH-9#1 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/i___76_i_1 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#2 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/i___90_i_2 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#3 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/i___93_i_1 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#4 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_start_addr_reg_i_1 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#5 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_start_addr_reg_i_2 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#6 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/image_ram_rd_start_addr_reg_i_4 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#7 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/multi_div_m1/i___67_i_1 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#8 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/multi_div_m1/result_reg[14]_i_1 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#9 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/multi_div_m1/result_reg[14]_i_11 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#10 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/multi_div_m1/result_reg[14]_i_15 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#11 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/multi_div_m1/result_reg[1]_i_1 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#12 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/buffer_control_m1/image_read_buffer_control_m1/multi_div_m1/result_reg[9]_i_1 of size 8x8, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#13 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/load_data_m1/load_head_m1/cal_channel_choose_m/channel_num_reg[1]_i_1 of size 8x5, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#14 Warning
+Small multiplier  
+Detected multiplier at pl_top_m1/load_data_m1/load_head_m1/cal_channel_choose_m/channel_num_reg[7]_i_1 of size 8x5, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+TIMING-4#1 Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock pl_top_m1/PLL_m1/inst/clk_in1 is defined downstream of clock clk_pl_0 and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+TIMING-6#1 Warning
+No common primary clock between related clocks  
+The clocks clk_out2_PLL and clk_pl_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out2_PLL] -to [get_clocks clk_pl_0]
+Related violations: <none>
+
+TIMING-6#2 Warning
+No common primary clock between related clocks  
+The clocks clk_pl_0 and clk_out2_PLL are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_pl_0] -to [get_clocks clk_out2_PLL]
+Related violations: <none>
+
+TIMING-6#3 Warning
+No common primary clock between related clocks  
+The clocks clk_pl_1 and clk_out1_PLL are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_pl_1] -to [get_clocks clk_out1_PLL]
+Related violations: <none>
+
+TIMING-6#4 Warning
+No common primary clock between related clocks  
+The clocks clk_pl_1 and clk_pl_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_pl_1] -to [get_clocks clk_pl_0]
+Related violations: <none>
+
+TIMING-7#1 Warning
+No common node between related clocks  
+The clocks clk_out2_PLL and clk_pl_0 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out2_PLL] -to [get_clocks clk_pl_0]
+Related violations: <none>
+
+TIMING-7#2 Warning
+No common node between related clocks  
+The clocks clk_pl_0 and clk_out2_PLL are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_pl_0] -to [get_clocks clk_out2_PLL]
+Related violations: <none>
+
+TIMING-7#3 Warning
+No common node between related clocks  
+The clocks clk_pl_1 and clk_out1_PLL are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_pl_1] -to [get_clocks clk_out1_PLL]
+Related violations: <none>
+
+TIMING-7#4 Warning
+No common node between related clocks  
+The clocks clk_pl_1 and clk_pl_0 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_pl_1] -to [get_clocks clk_pl_0]
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.000 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[1]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r_reg[5]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.127 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[1]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r_reg[6]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.307 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r_reg[7]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.367 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r_reg[8]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.429 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r_reg[9]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.566 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r_reg[10]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.653 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_addr_r_reg[11]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.677 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_r_reg[1]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.688 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_r_reg[0]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -1.692 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_r_reg[2]/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -1.896 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_change_edge_mask_reg/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -2.104 ns between pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/or_maxpooling_image_size_reg[2]/C (clocked by clk_pl_0) and pl_top_m1/buffer_control_m1/image_write_buffer_control_m1/PostImage_wr_location_in_filter_change_reg/D (clocked by clk_out2_PLL). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-27#1 Warning
+Invalid primary clock on hierarchical pin  
+A primary clock pl_top_m1/PLL_m1/inst/clk_in1 is created on an inappropriate internal pin pl_top_m1/PLL_m1/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
+Related violations: <none>
+
+CLKC-30#1 Advisory
+MMCME4 not driven by IO has BUFG in feedback loop  
+The MMCME4 cell pl_top_m1/PLL_m1/inst/mmcme4_adv_inst has a BUFGCE pl_top_m1/PLL_m1/inst/clkf_buf clock buffer in the feedback loop, but the clock input is not directly driven by an I/O to create a Zero Delay Buffer Clock (a common use for having a buffer in the feedback loop). If there is no specific need for this buffer in the feedback loop (e.g. no timing paths between CLKINx/CLKOUTx domains or low latency requirement), then it is suggested to remove that BUFG* from the feedback path. This will allow for a lower power solution and free the clock resource for other purposes.
+Related violations: <none>
+
+

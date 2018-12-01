@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="303970000000fs"></ZoomStartTime>
+      <ZoomEndTime time="358570000001fs"></ZoomEndTime>
+      <Cursor1Time time="349470000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="57" />
+   <wave_markers>
+      <marker time="25950000000" label="" />
+      <marker time="2830000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/axi_bus_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/acken" type="logic">
+      <obj_property name="ElementShortName">acken</obj_property>
+      <obj_property name="ObjectShortName">acken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awid" type="array">
+      <obj_property name="ElementShortName">awid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">awid[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awburst" type="array">
+      <obj_property name="ElementShortName">awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awlock" type="logic">
+      <obj_property name="ElementShortName">awlock</obj_property>
+      <obj_property name="ObjectShortName">awlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awcache" type="array">
+      <obj_property name="ElementShortName">awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awprot" type="array">
+      <obj_property name="ElementShortName">awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awqos" type="array">
+      <obj_property name="ElementShortName">awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">awqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awregion" type="array">
+      <obj_property name="ElementShortName">awregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">awregion[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awvalid" type="logic">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/wvalid" type="logic">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/wready" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+      <obj_property name="label">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/wlast" type="logic">
+      <obj_property name="ElementShortName">wlast</obj_property>
+      <obj_property name="ObjectShortName">wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awlen" type="array">
+      <obj_property name="ElementShortName">awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">awlen[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awsize" type="array">
+      <obj_property name="ElementShortName">awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awaddr_s" type="array">
+      <obj_property name="ElementShortName">awaddr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/awlength" type="array">
+      <obj_property name="ElementShortName">awlength[31:0]</obj_property>
+      <obj_property name="ObjectShortName">awlength[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/bid" type="array">
+      <obj_property name="ElementShortName">bid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">bid[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/bresp" type="array">
+      <obj_property name="ElementShortName">bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/bvalid" type="logic">
+      <obj_property name="ElementShortName">bvalid</obj_property>
+      <obj_property name="ObjectShortName">bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/bready" type="logic">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arid" type="array">
+      <obj_property name="ElementShortName">arid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">arid[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arburst" type="array">
+      <obj_property name="ElementShortName">arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arlock" type="logic">
+      <obj_property name="ElementShortName">arlock</obj_property>
+      <obj_property name="ObjectShortName">arlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arcache" type="array">
+      <obj_property name="ElementShortName">arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arprot" type="array">
+      <obj_property name="ElementShortName">arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arqos" type="array">
+      <obj_property name="ElementShortName">arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">arqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arregion" type="array">
+      <obj_property name="ElementShortName">arregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">arregion[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arlen" type="array">
+      <obj_property name="ElementShortName">arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">arlen[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arsize" type="array">
+      <obj_property name="ElementShortName">arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arsize[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/rid" type="array">
+      <obj_property name="ElementShortName">rid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rid[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arlength" type="array">
+      <obj_property name="ElementShortName">arlength[31:0]</obj_property>
+      <obj_property name="ObjectShortName">arlength[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/araddr_s" type="array">
+      <obj_property name="ElementShortName">araddr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr_s[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/arvalid" type="logic">
+      <obj_property name="ElementShortName">arvalid</obj_property>
+      <obj_property name="ObjectShortName">arvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/rvalid" type="logic">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/rresp" type="array">
+      <obj_property name="ElementShortName">rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/rlast" type="logic">
+      <obj_property name="ElementShortName">rlast</obj_property>
+      <obj_property name="ObjectShortName">rlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/rdata_array" type="array">
+      <obj_property name="ElementShortName">rdata_array[0:255][63:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_array[0:255][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/start_control_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/start_control_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/start_control_m1/image_begin_inter" type="logic">
+      <obj_property name="ElementShortName">image_begin_inter</obj_property>
+      <obj_property name="ObjectShortName">image_begin_inter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/start_control_m1/image_finish_inter" type="logic">
+      <obj_property name="ElementShortName">image_finish_inter</obj_property>
+      <obj_property name="ObjectShortName">image_finish_inter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/one_layer_finish" type="logic">
+      <obj_property name="ElementShortName">one_layer_finish</obj_property>
+      <obj_property name="ObjectShortName">one_layer_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/nlayer" type="array">
+      <obj_property name="ElementShortName">nlayer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nlayer[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/start_control_m1/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk_rst_m1/global_clk" type="logic">
+      <obj_property name="ElementShortName">global_clk</obj_property>
+      <obj_property name="ObjectShortName">global_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk_rst_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk_rst_m1/clk_rst_n" type="logic">
+      <obj_property name="ElementShortName">clk_rst_n</obj_property>
+      <obj_property name="ObjectShortName">clk_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/axi_bus_m1/wdata_array" type="array">
+      <obj_property name="ElementShortName">wdata_array[0:255][63:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_array[0:255][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

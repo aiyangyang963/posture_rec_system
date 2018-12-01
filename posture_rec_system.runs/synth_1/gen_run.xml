@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xczu3eg-sfva625-2-i" LaunchTime="1534325615">
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/combine2data_fifo/combine2data_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/floating_point_compare/floating_point_compare.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/floating_point_compare/floating_point_compare.xci"/>
+        <Attr Name="ImportTime" Val="1507004056"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/float_multiply/float_multiply.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/float_multiply/float_multiply.xci"/>
+        <Attr Name="ImportTime" Val="1506579594"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/float_add_IP_use_DSP_multilatency/float_add_IP_use_DSP_multilatency.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo_shift_window/fifo_shift_window.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/stayInstep_fifo/stayInstep_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/post_image_ram/post_image_ram.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/post_image_ram/post_image_ram.xci"/>
+        <Attr Name="ImportTime" Val="1507081656"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/image_prerd_toaxi_fifo/image_prerd_toaxi_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/image_prerd_toaxi_fifo/image_prerd_toaxi_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1507042811"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/image_ram/image_ram.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/image_ram/image_ram.xci"/>
+        <Attr Name="ImportTime" Val="1506407523"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/image_ram_rd_addr_add/image_ram_rd_addr_add.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/image_ram_rd_addr_add/image_ram_rd_addr_add.xci"/>
+        <Attr Name="ImportTime" Val="1506407886"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/kernel_fifo/kernel_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/kernel_fifo/kernel_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1507042776"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/head_fifo/head_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/head_fifo/head_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1507041719"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/sub_unit/sub_unit.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/sub_unit/sub_unit.xci"/>
+        <Attr Name="ImportTime" Val="1503544789"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/head_for_interate_dram/head_for_interate_dram.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/ip/head_for_interate_dram/head_for_interate_dram.xci"/>
+        <Attr Name="ImportTime" Val="1508726543"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/PLL/PLL.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/network_parameters.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/network_parameters.vh"/>
+        <Attr Name="ImportTime" Val="1506598733"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_4KBboundary.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CalImageChannel_replication.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/CalImageChannel_replication.v"/>
+        <Attr Name="ImportTime" Val="1506517458"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/activation.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/addTree.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/addr_mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/addr_mux.v"/>
+        <Attr Name="ImportTime" Val="1503563220"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/axi_interface_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/axi_interface_control.v"/>
+        <Attr Name="ImportTime" Val="1505295203"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/axi_read_image_cnt.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/axi_read_image_cnt.v"/>
+        <Attr Name="ImportTime" Val="1505910731"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/axi_read_write_master.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/axi_read_write_master.v"/>
+        <Attr Name="ImportTime" Val="1506062372"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/batch_norm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/buffer_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/buffer_control.v"/>
+        <Attr Name="ImportTime" Val="1506513999"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cal_channel_choose.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cal_image.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/cal_image.v"/>
+        <Attr Name="ImportTime" Val="1506847002"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/conv.v"/>
+        <Attr Name="ImportTime" Val="1506838733"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter_addr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/counter_addr.v"/>
+        <Attr Name="ImportTime" Val="1507041494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_from_window.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/data_from_window.v"/>
+        <Attr Name="ImportTime" Val="1506753066"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/deal_PostImage.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/deal_PostImage.v"/>
+        <Attr Name="ImportTime" Val="1507022169"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/head_bufer_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/head_bufer_control.v"/>
+        <Attr Name="ImportTime" Val="1505284771"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image_ram_multi_addr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/image_ram_multi_addr.v"/>
+        <Attr Name="ImportTime" Val="1505907638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image_read_buffer_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/image_read_buffer_control.v"/>
+        <Attr Name="ImportTime" Val="1506673898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image_shift_rc_noaddzero_cnt.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image_write_buffer_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/image_write_buffer_control.v"/>
+        <Attr Name="ImportTime" Val="1507094832"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/information_read_write.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/information_read_write.v"/>
+        <Attr Name="ImportTime" Val="1507090981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/interrupt.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/interrupt.v"/>
+        <Attr Name="ImportTime" Val="1506338014"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/iterate_head.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/iterate_head.v"/>
+        <Attr Name="ImportTime" Val="1505284673"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/kernel_buffer_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/kernel_buffer_control.v"/>
+        <Attr Name="ImportTime" Val="1506410327"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/leaky_activation.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/linear_activation.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/load_data.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/load_data.v"/>
+        <Attr Name="ImportTime" Val="1506590822"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/load_head.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/load_head.v"/>
+        <Attr Name="ImportTime" Val="1506342481"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/load_image.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/load_image.v"/>
+        <Attr Name="ImportTime" Val="1506764655"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/load_kernel.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/load_kernel.v"/>
+        <Attr Name="ImportTime" Val="1506500212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/max_pooling.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/max_pooling.v"/>
+        <Attr Name="ImportTime" Val="1507012907"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mul_results_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/mul_results_adder.v"/>
+        <Attr Name="ImportTime" Val="1506840496"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multi_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/multi_div.v"/>
+        <Attr Name="ImportTime" Val="1505376954"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multi_rd_addr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/multi_rd_addr.v"/>
+        <Attr Name="ImportTime" Val="1506407946"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multiplier_3x.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/multiplier_3x.v"/>
+        <Attr Name="ImportTime" Val="1507091096"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_3to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/mux_3to1.v"/>
+        <Attr Name="ImportTime" Val="1505053745"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_head_image_kernel.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/mux_head_image_kernel.v"/>
+        <Attr Name="ImportTime" Val="1503627404"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_ramtofifo_data.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/mux_ramtofifo_data.v"/>
+        <Attr Name="ImportTime" Val="1506046526"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pl_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/pl_top.v"/>
+        <Attr Name="ImportTime" Val="1507091469"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/postImage_channel_choose.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/postImage_channel_choose.v"/>
+        <Attr Name="ImportTime" Val="1505898786"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/post_to_ram_virtual_path.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/post_to_ram_virtual_path.v"/>
+        <Attr Name="ImportTime" Val="1505725569"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ram_to_cal_virtual_path.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/ram_to_cal_virtual_path.v"/>
+        <Attr Name="ImportTime" Val="1506408250"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ram_to_post_virtual_path.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/ram_to_post_virtual_path.v"/>
+        <Attr Name="ImportTime" Val="1505724066"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reset.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/reset.v"/>
+        <Attr Name="ImportTime" Val="1507037689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/row_col_ptr_gen_for_2unite.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/row_col_ptr_gen_for_2unite.v"/>
+        <Attr Name="ImportTime" Val="1516708496"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shift_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/shift_control.v"/>
+        <Attr Name="ImportTime" Val="1507039884"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shift_window.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/shift_window.v"/>
+        <Attr Name="ImportTime" Val="1506825047"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stayInstep.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sub_com.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/sub_com.v"/>
+        <Attr Name="ImportTime" Val="1505218194"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sumChannels.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/summation.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/summation.v"/>
+        <Attr Name="ImportTime" Val="1506852181"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/system_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1534323060"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/update.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/update.v"/>
+        <Attr Name="ImportTime" Val="1507100440"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/user_maxpooling_fifo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/user_maxpooling_fifo.v"/>
+        <Attr Name="ImportTime" Val="1517382168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/user_update_fifo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/wfifo_location_cal.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/wfifo_location_cal.v"/>
+        <Attr Name="ImportTime" Val="1505294174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/wr_rd_finish_cnt_threshhold.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/wr_rd_finish_cnt_threshhold.v"/>
+        <Attr Name="ImportTime" Val="1516422051"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/top.v"/>
+        <Attr Name="ImportTime" Val="1507031989"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/axiInter_ila/axiInter_ila.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/interrupt_ila1/interrupt_ila1.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/interrupr_ila/interrupr_ila.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/err_detect.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/new/err_detect.v"/>
+        <Attr Name="ImportTime" Val="1504590320"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bandWidth_count.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/summation_ila/summation_ila.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/conv_ila/conv_ila.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/load_image_ila/load_image_ila.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pointerOfImage_inRAM.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/add_zero_fifo/add_zero_fifo.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/add_zero_before_conv.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/add_zero_after_conv.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/add_zero_after_conv.v"/>
+        <Attr Name="ImportTime" Val="1517048413"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fifo_custom.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/fifo_custom.v"/>
+        <Attr Name="ImportTime" Val="1516785293"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/user_fifo.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/user_fifo.v"/>
+        <Attr Name="ImportTime" Val="1516939437"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sum_8channel.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/sum_8channel.v"/>
+        <Attr Name="ImportTime" Val="1508397137"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/post_image_ram/PostImage_ram_init_data.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/sources_1/ip/post_image_ram/PostImage_ram_init_data.coe"/>
+        <Attr Name="ImportTime" Val="1505549018"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pin.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../posture_recognition/posture_recognition.srcs/constrs_1/new/pin.xdc"/>
+        <Attr Name="ImportTime" Val="1507038356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/time.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/constrs_1/new/time.xdc"/>
+        <Attr Name="ImportTime" Val="1508756148"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/time.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_AreaOptimized_medium" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design">
+      <Option Id="Directive">2</Option>
+      <Option Id="ResourceSharing">2</Option>
+      <Option Id="NoCombineLuts">1</Option>
+      <Option Id="ControlSetOptThreshold">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="177572917334fs"></ZoomStartTime>
+      <ZoomEndTime time="177678017335fs"></ZoomEndTime>
+      <Cursor1Time time="177646317000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="1900"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/load_kernel_begin" type="logic">
+      <obj_property name="ElementShortName">load_kernel_begin</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/load_kernel_finish" type="logic">
+      <obj_property name="ElementShortName">load_kernel_finish</obj_property>
+      <obj_property name="ObjectShortName">load_kernel_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/kernel_size" type="array">
+      <obj_property name="ElementShortName">kernel_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/buffer_kernel_rd" type="logic">
+      <obj_property name="ElementShortName">buffer_kernel_rd</obj_property>
+      <obj_property name="ObjectShortName">buffer_kernel_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/buffer_kernel_rd_q" type="array">
+      <obj_property name="ElementShortName">buffer_kernel_rd_q[511:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_kernel_rd_q[511:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/buffer_kernel_empty" type="logic">
+      <obj_property name="ElementShortName">buffer_kernel_empty</obj_property>
+      <obj_property name="ObjectShortName">buffer_kernel_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/kernel_q" type="array">
+      <obj_property name="ElementShortName">kernel_q[2303:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_q[2303:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/bias1_q" type="array">
+      <obj_property name="ElementShortName">bias1_q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">bias1_q[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/bias2_q" type="array">
+      <obj_property name="ElementShortName">bias2_q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">bias2_q[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/div_q" type="array">
+      <obj_property name="ElementShortName">div_q[255:0]</obj_property>
+      <obj_property name="ObjectShortName">div_q[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/kernel_valid" type="logic">
+      <obj_property name="ElementShortName">kernel_valid</obj_property>
+      <obj_property name="ObjectShortName">kernel_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/kernel_loading_reg" type="logic">
+      <obj_property name="ElementShortName">kernel_loading_reg</obj_property>
+      <obj_property name="ObjectShortName">kernel_loading_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/kernel_rd_num_record" type="array">
+      <obj_property name="ElementShortName">kernel_rd_num_record[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_rd_num_record[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/kernel_cnt" type="array">
+      <obj_property name="ElementShortName">kernel_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/buffer_kernel_rd_r" type="logic">
+      <obj_property name="ElementShortName">buffer_kernel_rd_r</obj_property>
+      <obj_property name="ObjectShortName">buffer_kernel_rd_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/buffer_kernel_rd_r1" type="logic">
+      <obj_property name="ElementShortName">buffer_kernel_rd_r1</obj_property>
+      <obj_property name="ObjectShortName">buffer_kernel_rd_r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/buffer_kernel_rd_neg" type="logic">
+      <obj_property name="ElementShortName">buffer_kernel_rd_neg</obj_property>
+      <obj_property name="ObjectShortName">buffer_kernel_rd_neg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/pl_top_DUT/load_data_m1/load_kernel_m1/kernel_bias_div_temp" type="array">
+      <obj_property name="ElementShortName">kernel_bias_div_temp[7:0][5:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_bias_div_temp[7:0][5:0][63:0]</obj_property>
+   </wvobject>
+</wave_config>

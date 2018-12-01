@@ -1,0 +1,8 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+F:/postureRec/posture_rec_system/posture_rec_system.sim/sim_1/behav/xsim/glbl.v,1507081072,verilog,,,,glbl,,xil_defaultlib,,,,,,
+F:/postureRec/posture_rec_system/posture_rec_system.srcs/sim_1/new/user_update_fifo_tb.sv,1519723982,systemVerilog,,,F:/postureRec/posture_rec_system/posture_rec_system.srcs/sources_1/new/network_parameters.vh,user_update_fifo_tb,,xil_defaultlib,../../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/ec67/hdl;../../../../posture_rec_system.srcs/sources_1/ip/PLL;../../../../posture_rec_system.srcs/sources_1/new;D:/Xilinx/Vivado/2017.3/data/xilinx_vip/include,,,,,
+F:/postureRec/posture_rec_system/posture_rec_system.srcs/sources_1/new/network_parameters.vh,1523952731,verilog,,,,,,,,,,,,
+F:/postureRec/posture_rec_system/posture_rec_system.srcs/sources_1/new/user_update_fifo.v,1523240817,verilog,,,F:/postureRec/posture_rec_system/posture_rec_system.srcs/sources_1/new/network_parameters.vh,user_update_fifo,,xil_defaultlib,../../../../posture_rec_system.srcs/sources_1/bd/system/ipshared/ec67/hdl;../../../../posture_rec_system.srcs/sources_1/ip/PLL;../../../../posture_rec_system.srcs/sources_1/new;D:/Xilinx/Vivado/2017.3/data/xilinx_vip/include,,,,,
